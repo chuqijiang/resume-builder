@@ -1,3 +1,7 @@
+## About Resume-Builder
+
+This app helps users generate resumes, offering a variety of templates to save time on formatting. Users can easily manage templates to suit their needs, adding sections like experience, awards, or custom parts. They can also adjust the sequence of these sections—for example, placing education at the beginning or moving it after experience. Additionally, users have the flexibility to change fonts and colors, allowing for complete personalization.
+
 ## Tech Stack and Choices
 
 ### Frontend
