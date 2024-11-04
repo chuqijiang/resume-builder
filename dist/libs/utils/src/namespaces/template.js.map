@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../libs/utils/src/namespaces/template.ts"],"sourcesContent":["export const templatesList = [\n  \"template1\",\n  \"template2\",\n  \"template3\",\n] as const;\n\nexport type Template = (typeof templatesList)[number];\n"],"names":["templatesList"],"mappings":";;;;+BAAaA;;;eAAAA;;;AAAN,MAAMA,gBAAgB;IAC3B;IACA;IACA;CACD"}

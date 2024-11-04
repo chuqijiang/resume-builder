@@ -1,0 +1,6600 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.4",
+  "deps": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/modifiers": "^7.0.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@fontsource/ibm-plex-sans": "^5.0.21",
+    "@hookform/resolvers": "^3.9.0",
+    "@lingui/core": "^4.11.3",
+    "@lingui/detect-locale": "^4.11.3",
+    "@lingui/macro": "^4.11.3",
+    "@lingui/react": "^4.11.3",
+    "@nestjs-modules/mailer": "^2.0.2",
+    "@nestjs/axios": "^3.0.3",
+    "@nestjs/common": "^10.4.1",
+    "@nestjs/config": "^3.2.3",
+    "@nestjs/core": "^10.4.1",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/passport": "^10.0.3",
+    "@nestjs/platform-express": "^10.4.1",
+    "@nestjs/serve-static": "^4.0.2",
+    "@nestjs/swagger": "^7.4.0",
+    "@nestjs/terminus": "^10.2.3",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@phosphor-icons/react": "^2.1.7",
+    "@prisma/client": "^5.19.0",
+    "@radix-ui/react-accordion": "^1.2.0",
+    "@radix-ui/react-alert-dialog": "^1.1.1",
+    "@radix-ui/react-aspect-ratio": "^1.1.0",
+    "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-context-menu": "^2.2.1",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-dropdown-menu": "^2.1.1",
+    "@radix-ui/react-hover-card": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-popover": "^1.1.1",
+    "@radix-ui/react-portal": "^1.1.1",
+    "@radix-ui/react-scroll-area": "^1.1.0",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-slider": "^1.2.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-switch": "^1.1.0",
+    "@radix-ui/react-tabs": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.1",
+    "@radix-ui/react-toggle": "^1.1.0",
+    "@radix-ui/react-toggle-group": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.2",
+    "@swc/helpers": "^0.5.12",
+    "@tanstack/react-query": "^5.53.2",
+    "@tiptap/extension-highlight": "^2.6.6",
+    "@tiptap/extension-image": "^2.6.6",
+    "@tiptap/extension-link": "^2.6.6",
+    "@tiptap/extension-text-align": "^2.6.6",
+    "@tiptap/extension-underline": "^2.6.6",
+    "@tiptap/pm": "^2.6.6",
+    "@tiptap/react": "^2.6.6",
+    "@tiptap/starter-kit": "^2.6.6",
+    "@types/passport-jwt": "^4.0.1",
+    "async-retry": "^1.3.3",
+    "axios": "^1.7.7",
+    "axios-auth-refresh": "^3.3.6",
+    "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.0.0",
+    "cookie-parser": "^1.4.6",
+    "dayjs": "^1.11.13",
+    "deepmerge": "^4.3.1",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^11.3.31",
+    "fuzzy": "^0.1.3",
+    "helmet": "^7.1.0",
+    "immer": "^10.1.1",
+    "jszip": "^3.10.1",
+    "lodash.debounce": "^4.0.8",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2",
+    "minio": "^8.0.1",
+    "nest-raven": "^10.1.0",
+    "nestjs-minio-client": "^2.2.0",
+    "nestjs-prisma": "^0.23.0",
+    "nestjs-zod": "^3.0.0",
+    "nodemailer": "^6.9.14",
+    "openai": "^4.57.0",
+    "otplib": "^12.0.1",
+    "papaparse": "^5.4.1",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "pdf-lib": "^1.17.1",
+    "prisma": "^5.19.0",
+    "puppeteer": "^23.2.1",
+    "qrcode.react": "^4.0.1",
+    "react": "^18.3.1",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-hook-form": "^7.53.0",
+    "react-parallax-tilt": "^1.7.237",
+    "react-resizable-panels": "^2.1.2",
+    "react-router-dom": "^6.26.1",
+    "react-zoom-pan-pinch": "^3.6.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "sharp": "^0.33.5",
+    "tailwind-merge": "^2.5.2",
+    "tslib": "^2.7.0",
+    "unique-names-generator": "^4.7.1",
+    "use-breakpoint": "^4.0.1",
+    "use-keyboard-shortcut": "^1.1.6",
+    "usehooks-ts": "^3.1.0",
+    "webfontloader": "^1.6.28",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.2",
+    "zundo": "^2.1.0",
+    "zustand": "^4.5.5",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
+    "@lingui/cli": "^4.11.3",
+    "@lingui/conf": "^4.11.3",
+    "@lingui/swc-plugin": "^4.0.8",
+    "@lingui/vite-plugin": "^4.11.3",
+    "@nestjs/schematics": "^10.1.4",
+    "@nestjs/testing": "^10.4.1",
+    "@nx/eslint": "^19.6.4",
+    "@nx/eslint-plugin": "^19.6.4",
+    "@nx/jest": "^19.6.4",
+    "@nx/js": "^19.6.4",
+    "@nx/nest": "^19.6.4",
+    "@nx/node": "^19.6.4",
+    "@nx/react": "^19.6.4",
+    "@nx/vite": "^19.6.4",
+    "@nx/web": "^19.6.4",
+    "@nx/webpack": "^19.6.4",
+    "@nx/workspace": "^19.6.4",
+    "@swc-node/register": "^1.10.9",
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.7.22",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.8",
+    "@tailwindcss/typography": "^0.5.15",
+    "@tanstack/eslint-plugin-query": "^5.53.0",
+    "@testing-library/react": "^16.0.1",
+    "@tiptap/core": "^2.6.6",
+    "@types/async-retry": "^1.4.8",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^4.17.21",
+    "@types/file-saver": "^2.0.7",
+    "@types/jest": "^29.5.12",
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/lodash.get": "^4.4.9",
+    "@types/lodash.set": "^4.3.9",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.5.2",
+    "@types/nodemailer": "^6.4.15",
+    "@types/papaparse": "^5.3.14",
+    "@types/passport": "^1.0.16",
+    "@types/passport-github2": "^1.2.9",
+    "@types/passport-google-oauth20": "^2.0.16",
+    "@types/passport-local": "^1.0.38",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-is": "^18.3.0",
+    "@types/retry": "^0.12.5",
+    "@types/webfontloader": "^1.6.38",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "@vitest/coverage-v8": "^2.0.5",
+    "@vitest/ui": "^2.0.5",
+    "autoprefixer": "^10.4.20",
+    "babel-plugin-macros": "^3.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-lingui": "^0.3.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "eslint-plugin-unused-imports": "^3.2.0",
+    "jest": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "jsdom": "^25.0.0",
+    "nx": "^19.6.4",
+    "postcss": "^8.4.44",
+    "postcss-import": "^16.1.0",
+    "postcss-nested": "^6.2.0",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.10",
+    "tailwindcss-animate": "^1.0.7",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vite-plugin-dts": "^4.1.0",
+    "vitest": "^2.0.5"
+  },
+  "pathMappings": {
+    "@/artboard/*": [
+      "apps/artboard/src/*"
+    ],
+    "@/client/*": [
+      "apps/client/src/*"
+    ],
+    "@/server/*": [
+      "apps/server/src/*"
+    ],
+    "@reactive-resume/dto": [
+      "libs/dto/src/index.ts"
+    ],
+    "@reactive-resume/hooks": [
+      "libs/hooks/src/index.ts"
+    ],
+    "@reactive-resume/parser": [
+      "libs/parser/src/index.ts"
+    ],
+    "@reactive-resume/schema": [
+      "libs/schema/src/index.ts"
+    ],
+    "@reactive-resume/ui": [
+      "libs/ui/src/index.ts"
+    ],
+    "@reactive-resume/utils": [
+      "libs/utils/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "dist/libs/schema/src/sections/skill.d.ts",
+        "hash": "6617416468801596190"
+      },
+      {
+        "file": "dist/libs/schema/src/basics/custom.js",
+        "hash": "1633364044549791336"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-9U8E8eRq.js",
+        "hash": "17211292509574485500"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/url.js.map",
+        "hash": "15335407117463654161"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/skill.js",
+        "hash": "11539779364237262349"
+      },
+      {
+        "file": "dist/libs/utils/src/index.js.map",
+        "hash": "3444114342172779673"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BmfPGcbm.js.map",
+        "hash": "15335965627685061271"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume-v3/schema.js",
+        "hash": "6348257634104106590"
+      },
+      {
+        "file": "dist/libs/parser/src/interfaces/parser.js",
+        "hash": "16990783786490387361"
+      },
+      {
+        "file": "dist/libs/parser/src/json-resume/schema.js.map",
+        "hash": "11157590877410498410"
+      },
+      {
+        "file": "dist/apps/client/assets/sv-BKydikDC.js.map",
+        "hash": "13932837674646844807"
+      },
+      {
+        "file": "dist/libs/hooks/hooks/use-form-field.d.ts",
+        "hash": "13549123466182130853"
+      },
+      {
+        "file": "dist/apps/client/assets/fa-DPgWOJ2m.js",
+        "hash": "10350368423529794604"
+      },
+      {
+        "file": "tools/prisma/migrations/migration_lock.toml",
+        "hash": "11493296588214560035"
+      },
+      {
+        "file": "dist/libs/ui/components/portal.d.ts",
+        "hash": "14657047355782290609"
+      },
+      {
+        "file": "dist/libs/ui/components/dropdown-menu.d.ts",
+        "hash": "7501302807179355403"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/interest.js.map",
+        "hash": "18401301201059895393"
+      },
+      {
+        "file": "dist/libs/ui/components/avatar.d.ts",
+        "hash": "3306451504234317051"
+      },
+      {
+        "file": "dist/apps/client/assets/mr-B6gEs8-x.js.map",
+        "hash": "17536582015286792883"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/object.js",
+        "hash": "8026992434829310406"
+      },
+      {
+        "file": "dist/apps/artboard/favicon.png",
+        "hash": "11547571018533841104"
+      },
+      {
+        "file": "dist/libs/ui/variants/badge.d.ts",
+        "hash": "3831503580074055524"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/promise.js",
+        "hash": "7811123154053836785"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/profile.d.ts",
+        "hash": "345193152757453141"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Dlj_xQIk.js.map",
+        "hash": "3062324754783676139"
+      },
+      {
+        "file": "dist/libs/ui/components/dialog.d.ts",
+        "hash": "12252406876197130178"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-500-normal-BFLYOLbL.woff2",
+        "hash": "18113390206551010629"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-C_f6GJl2.js",
+        "hash": "10048286872179390222"
+      },
+      {
+        "file": "dist/apps/client/assets/ar-sa-BUc0fdct.js.map",
+        "hash": "12595468489029106476"
+      },
+      {
+        "file": "dist/apps/client/assets/zh-cn-D30C3tIH.js",
+        "hash": "6130196403413068689"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/template.js.map",
+        "hash": "6879420313145473787"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/login.js.map",
+        "hash": "10757473207219923801"
+      },
+      {
+        "file": "dist/libs/dto/src/secrets/secrets.d.ts",
+        "hash": "7104488639241661082"
+      },
+      {
+        "file": "dist/apps/client/assets/pl-_4LyHxlY.js",
+        "hash": "17250389058292491482"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DZWOsnA_.js",
+        "hash": "1343957735678779839"
+      },
+      {
+        "file": "dist/apps/client/.DS_Store",
+        "hash": "17907597093770734637"
+      },
+      {
+        "file": "dist/libs/dto/src/user/index.d.ts",
+        "hash": "14592645933579726677"
+      },
+      {
+        "file": "dist/libs/ui/components/sheet.d.ts",
+        "hash": "6625153549207734446"
+      },
+      {
+        "file": "dist/apps/client/assets/te-DvXCP51w.js.map",
+        "hash": "8576792689725336877"
+      },
+      {
+        "file": "dist/apps/client/scripts/initialize-theme.js",
+        "hash": "11032052540381402219"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CABKPw6v.js.map",
+        "hash": "4843493723051140781"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/promise.d.ts",
+        "hash": "16191737991477654821"
+      },
+      {
+        "file": "dist/apps/server/main.js",
+        "hash": "883629979795040155"
+      },
+      {
+        "file": "dist/libs/ui/components/combobox.d.ts",
+        "hash": "4822327220905533247"
+      },
+      {
+        "file": "dist/apps/client/assets/th-CYZaDeja.js.map",
+        "hash": "9740216135595427434"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/response.js",
+        "hash": "11274969942040683857"
+      },
+      {
+        "file": "dist/apps/client/assets/el-D_-sPJEF.js",
+        "hash": "16989782429318201146"
+      },
+      {
+        "file": "dist/apps/client/assets/it-U8hHPL4g.js.map",
+        "hash": "9379446159881616744"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-C_f6GJl2.js.map",
+        "hash": "8827320122370956272"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume/index.js",
+        "hash": "16711377381861734084"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/publication.js.map",
+        "hash": "2637011457376622226"
+      },
+      {
+        "file": "dist/apps/client/assets/lt-Cem5_lQm.js.map",
+        "hash": "1665620976156455290"
+      },
+      {
+        "file": "dist/libs/utils/package.json",
+        "hash": "7584558641369409673"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CjTA2oPF.js",
+        "hash": "11346151930614717332"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DXkmKqGi.js",
+        "hash": "16659096232735771307"
+      },
+      {
+        "file": "dist/libs/schema/src/basics/custom.d.ts",
+        "hash": "6845080068891185583"
+      },
+      {
+        "file": "dist/apps/client/assets/ko-BKcNwi2b.js.map",
+        "hash": "1128447112191720626"
+      },
+      {
+        "file": "dist/apps/artboard/icon/dark.svg",
+        "hash": "4230213572436627847"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/index.js",
+        "hash": "1152336072216090863"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BTIvNhfe.js",
+        "hash": "9301221115280274283"
+      },
+      {
+        "file": "dist/apps/client/index.html",
+        "hash": "15646290959164199986"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/certification.js.map",
+        "hash": "16257276567710668552"
+      },
+      {
+        "file": "dist/libs/ui/variants/alert.d.ts",
+        "hash": "5995326242043409400"
+      },
+      {
+        "file": "dist/libs/dto/src/feature/index.d.ts",
+        "hash": "3807978965383286921"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/csv.js.map",
+        "hash": "12774752142757926839"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/types.d.ts",
+        "hash": "12497263394825211192"
+      },
+      {
+        "file": "dist/libs/utils/src/index.d.ts",
+        "hash": "6915695218756893177"
+      },
+      {
+        "file": "dist/apps/client/assets/th-CYZaDeja.js",
+        "hash": "54439998470488039"
+      },
+      {
+        "file": "dist/libs/hooks/index.mjs",
+        "hash": "12036596746161876467"
+      },
+      {
+        "file": "dist/apps/client/assets/bn-DQfRk8Xm.js.map",
+        "hash": "11292725609760945759"
+      },
+      {
+        "file": "dist/libs/parser/package.json",
+        "hash": "18247465139054501040"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/color.js",
+        "hash": "13782926275051613923"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/delete.d.ts",
+        "hash": "13365582297662960620"
+      },
+      {
+        "file": "dist/apps/client/assets/ar-sa-BUc0fdct.js",
+        "hash": "12963978437393762416"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/page.d.ts",
+        "hash": "17983184708964209874"
+      },
+      {
+        "file": "dist/libs/parser/src/json-resume/schema.js",
+        "hash": "11377847673688535962"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/language.js.map",
+        "hash": "7212685784473682023"
+      },
+      {
+        "file": "SECURITY.md",
+        "hash": "14970564342286415460"
+      },
+      {
+        "file": "dist/libs/ui/components/index.d.ts",
+        "hash": "8808093251299416148"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/education.js.map",
+        "hash": "2473550538011944451"
+      },
+      {
+        "file": "dist/libs/ui/components/slider.d.ts",
+        "hash": "8472928910136907123"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CYdxXX3u.js.map",
+        "hash": "8517081564242523527"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/dark/amazon.svg",
+        "hash": "9317660951462260570"
+      },
+      {
+        "file": "dist/libs/hooks/index.js",
+        "hash": "2953469501714991027"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-SqJIShVk.js.map",
+        "hash": "14373395881709370267"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CjUv6n9U.js",
+        "hash": "11051984523884071231"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/profile.js",
+        "hash": "4076157658666776082"
+      },
+      {
+        "file": "dist/apps/client/assets/vi-BaFzaGBC.js.map",
+        "hash": "12768346495650568903"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-D9AfTGVk.js.map",
+        "hash": "6726733621486838859"
+      },
+      {
+        "file": "dist/apps/client/logo/light.svg",
+        "hash": "4113911258916733874"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/index.d.ts",
+        "hash": "2837631037202874504"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CjUv6n9U.js.map",
+        "hash": "674480541266181455"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-400-normal-BU83cd9M.woff",
+        "hash": "7194160604586177364"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/experience.js",
+        "hash": "3376687674748598524"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DY-3dcJ8.js.map",
+        "hash": "5847142139473210622"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/award.d.ts",
+        "hash": "4167939876911577533"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/light/google.svg",
+        "hash": "9994428982192330045"
+      },
+      {
+        "file": "dist/apps/client/assets/id-CYT_loWI.js",
+        "hash": "5438428757632538852"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/project.d.ts",
+        "hash": "16080981502894314574"
+      },
+      {
+        "file": "dist/apps/client/assets/zh-tw-DLNr50kH.js.map",
+        "hash": "3179798129066930656"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-k_-cb_JN.js.map",
+        "hash": "3057117594055280109"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/dark/postman.svg",
+        "hash": "11968451728378002129"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-D36wRZLe.js.map",
+        "hash": "2341232112289587144"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/project.js.map",
+        "hash": "13270256476719496827"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-600-italic-BiDTOEhu.woff",
+        "hash": "16283861243594476898"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/education.js",
+        "hash": "14626033769721153829"
+      },
+      {
+        "file": "dist/apps/client/templates/jpg/template3.jpg",
+        "hash": "5914873659944771439"
+      },
+      {
+        "file": "dist/libs/dto/src/contributors/index.d.ts",
+        "hash": "2193270778272381041"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/update-password.js.map",
+        "hash": "8277545118854797334"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/item.js",
+        "hash": "6578826360892113260"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DWKyv_84.js",
+        "hash": "8883031753734961231"
+      },
+      {
+        "file": "dist/apps/client/assets/ca-nfLpCXJb.js",
+        "hash": "13843621674975690817"
+      },
+      {
+        "file": "dist/libs/parser/src/index.d.ts",
+        "hash": "7853494743505950933"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Dl87am6N.js",
+        "hash": "4779115967928114206"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/date.js",
+        "hash": "17960750715889965117"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/light/postman.svg",
+        "hash": "12355835373727892657"
+      },
+      {
+        "file": "dist/apps/client/templates/json/template3.json",
+        "hash": "8753057887850089090"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/fonts.js",
+        "hash": "2618933466580810074"
+      },
+      {
+        "file": "dist/libs/schema/src/basics/index.js.map",
+        "hash": "13564003964405962126"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/message.d.ts",
+        "hash": "16840309989931547894"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/login.d.ts",
+        "hash": "11197273533030694823"
+      },
+      {
+        "file": "tools/compose/traefik.yml",
+        "hash": "12912919889722412741"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/id.js",
+        "hash": "15552037419510029530"
+      },
+      {
+        "file": "dist/libs/parser/src/interfaces/parser.d.ts",
+        "hash": "2185677334755589210"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/award.js",
+        "hash": "5631884799066154834"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/delete.js",
+        "hash": "881241420185278112"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/dark/zalando.svg",
+        "hash": "9325599690994025961"
+      },
+      {
+        "file": "dist/apps/client/support-logos/paypal.svg",
+        "hash": "523285331105688792"
+      },
+      {
+        "file": "tools/.DS_Store",
+        "hash": "13183355038662871991"
+      },
+      {
+        "file": "dist/libs/ui/package.json",
+        "hash": "17509179724767060673"
+      },
+      {
+        "file": "dist/apps/client/assets/km-DVHvXlKq.js",
+        "hash": "4017824042245583187"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-EV_HIiL1.js.map",
+        "hash": "10782695348716864895"
+      },
+      {
+        "file": "dist/libs/ui/components/card.d.ts",
+        "hash": "9523127535916601143"
+      },
+      {
+        "file": "dist/libs/dto/src/user/user.js",
+        "hash": "2770438071748428833"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/index.js",
+        "hash": "6225625715502645724"
+      },
+      {
+        "file": "dist/apps/client/assets/af-BhelMt_t.js.map",
+        "hash": "13654633169950991552"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/csv.d.ts",
+        "hash": "7033059066846672570"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/language.js.map",
+        "hash": "16143766804034202547"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-xfHBlgN1.js",
+        "hash": "9295027341430430673"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BNLuOGP7.js",
+        "hash": "16905094033474386272"
+      },
+      {
+        "file": "dist/apps/client/assets/hu-AWG6yAmB.js.map",
+        "hash": "5990430344958710440"
+      },
+      {
+        "file": "dist/apps/client/assets/pt-BQJI1Y-y.js",
+        "hash": "16943793791367787623"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/id.js.map",
+        "hash": "16289273208253504343"
+      },
+      {
+        "file": ".git/refs/remotes/origin/main",
+        "hash": "9795197609705693345"
+      },
+      {
+        "file": "dist/libs/dto/src/user/user.js.map",
+        "hash": "11385185830589887127"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/reference.d.ts",
+        "hash": "8409480034342364463"
+      },
+      {
+        "file": "dist/libs/dto/src/secrets/index.js.map",
+        "hash": "12913568761698227744"
+      },
+      {
+        "file": "dist/apps/client/assets/ne-DRxjaFzc.js",
+        "hash": "4340880044833461668"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/reset-password.d.ts",
+        "hash": "829592663163392324"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CjTmHc5U.js.map",
+        "hash": "13885993873498742121"
+      },
+      {
+        "file": "dist/apps/client/assets/da-DalXLU_c.js.map",
+        "hash": "2277366696912212889"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BQ0XZdmQ.js",
+        "hash": "8484820094916619451"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/language.js.map",
+        "hash": "17086582634827243434"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DiVjGpgQ.js",
+        "hash": "7562261051849839302"
+      },
+      {
+        "file": "dist/apps/client/assets/am-CavOlngB.js",
+        "hash": "5621578685840253108"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BQ0XZdmQ.js.map",
+        "hash": "4544984740255928187"
+      },
+      {
+        "file": "dist/libs/ui/components/shortcut.d.ts",
+        "hash": "14710549865743719443"
+      },
+      {
+        "file": "tools/prisma/migrations/20231121234455_initialize_tables/migration.sql",
+        "hash": "5714697823105260854"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/profile.js",
+        "hash": "15046103389600719472"
+      },
+      {
+        "file": "dist/apps/artboard/assets/index-BwvxOICy.css",
+        "hash": "6232174892273614704"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-r8tWPryZ.js.map",
+        "hash": "18332120322092964985"
+      },
+      {
+        "file": "dist/libs/dto/src/user/user.d.ts",
+        "hash": "2818262167852538354"
+      },
+      {
+        "file": "dist/apps/client/assets/ja-B123Eotp.js.map",
+        "hash": "10448661022165313827"
+      },
+      {
+        "file": "dist/apps/artboard/assets/index-CzUR6yap.js",
+        "hash": "14654848916675087196"
+      },
+      {
+        "file": ".git/logs/refs/remotes/origin/main",
+        "hash": "13674159519375617006"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/education.d.ts",
+        "hash": "3982861258626876767"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/project.js",
+        "hash": "17287751932261316721"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/index.js.map",
+        "hash": "10544408134645531940"
+      },
+      {
+        "file": ".git/index",
+        "hash": "12801974843518577856"
+      },
+      {
+        "file": "dist/apps/client/assets/bn-DQfRk8Xm.js",
+        "hash": "12444609102173763876"
+      },
+      {
+        "file": "dist/libs/dto/src/secrets/index.js",
+        "hash": "14524824045927672420"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/object.d.ts",
+        "hash": "233257733806961059"
+      },
+      {
+        "file": "dist/apps/client/assets/es-z4RYc6Mb.js",
+        "hash": "7058764652686416538"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/language.d.ts",
+        "hash": "1334257665607112672"
+      },
+      {
+        "file": "dist/libs/ui/components/badge.d.ts",
+        "hash": "6856487886493061237"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DZREWq-9.js",
+        "hash": "5069281629119917424"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/resume.js.map",
+        "hash": "9040421828159201976"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-o5UNaUku.js.map",
+        "hash": "5759094838755761014"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/reference.js",
+        "hash": "3940355676611056500"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume-v3/index.js",
+        "hash": "1141643833117293888"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-C8uthxNr.js.map",
+        "hash": "17758860693612797698"
+      },
+      {
+        "file": "tools/compose/swarm.yml",
+        "hash": "2379956895338169357"
+      },
+      {
+        "file": "dist/apps/client/assets/fi-B79RY5i8.js",
+        "hash": "284989410269323617"
+      },
+      {
+        "file": "dist/libs/ui/components/context-menu.d.ts",
+        "hash": "6818292133085380360"
+      },
+      {
+        "file": "dist/libs/ui/components/command.d.ts",
+        "hash": "7339051171743603240"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/publication.js",
+        "hash": "13331422636138567346"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/create.d.ts",
+        "hash": "13548699980357989426"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/light/amazon.svg",
+        "hash": "3000715424921233277"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-UsgLQagL.js",
+        "hash": "6485227307842557761"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CB_tyzKb.js.map",
+        "hash": "6480996728257391499"
+      },
+      {
+        "file": "dist/apps/client/assets/fr-D3mXX50s.js",
+        "hash": "15075705203280889326"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/url.js.map",
+        "hash": "3183387199776058901"
+      },
+      {
+        "file": "dist/libs/ui/components/tooltip.d.ts",
+        "hash": "1336270472308478453"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/date.d.ts",
+        "hash": "16695297772324973517"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/array.d.ts",
+        "hash": "8221934429356729998"
+      },
+      {
+        "file": "dist/apps/client/assets/bg-BD6BN2qX.js.map",
+        "hash": "3096783516002785606"
+      },
+      {
+        "file": "dist/apps/client/templates/jpg/template2.jpg",
+        "hash": "5451143391802010142"
+      },
+      {
+        "file": "dist/libs/ui/components/select.d.ts",
+        "hash": "8986338948347693548"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/update.js",
+        "hash": "16407696872811799825"
+      },
+      {
+        "file": "dist/libs/dto/src/user/update-user.d.ts",
+        "hash": "16452419624878273854"
+      },
+      {
+        "file": "dist/apps/client/assets/id-CYT_loWI.js.map",
+        "hash": "5342089523953835612"
+      },
+      {
+        "file": "dist/libs/schema/src/basics/custom.js.map",
+        "hash": "14353990613147230872"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-r8tWPryZ.js",
+        "hash": "14078561138680683065"
+      },
+      {
+        "file": "dist/apps/client/assets/kn-De-Hk3-t.js.map",
+        "hash": "15026222646988425394"
+      },
+      {
+        "file": "dist/apps/client/support-logos/crowdin-light.svg",
+        "hash": "1899056920553852072"
+      },
+      {
+        "file": "dist/libs/utils/src/index.js",
+        "hash": "15602097306386860883"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/certification.js",
+        "hash": "18090835462203595863"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/types.js.map",
+        "hash": "16845805658272552503"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/skill.d.ts",
+        "hash": "7765113169792863589"
+      },
+      {
+        "file": "dist/libs/dto/src/user/index.js.map",
+        "hash": "2032026896835971480"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/project.d.ts",
+        "hash": "14282620967800138715"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/interest.d.ts",
+        "hash": "7979339747679278875"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/custom-section.js.map",
+        "hash": "11736672942662569635"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/url.d.ts",
+        "hash": "14343407324320948085"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/profile.js.map",
+        "hash": "14665879850208956564"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-o5UNaUku.js",
+        "hash": "8667400952683768069"
+      },
+      {
+        "file": "dist/apps/client/assets/hi-DVUzL5eh.js",
+        "hash": "12915968844039037408"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DiVjGpgQ.js.map",
+        "hash": "12858585391474896017"
+      },
+      {
+        "file": "dist/libs/schema/src/index.js.map",
+        "hash": "13258433951735428027"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/index.d.ts",
+        "hash": "7917248488074950274"
+      },
+      {
+        "file": "dist/apps/client/backgrounds/ChatGPT_Carousel1.jpg",
+        "hash": "8477574248957434253"
+      },
+      {
+        "file": "dist/libs/schema/src/basics/index.d.ts",
+        "hash": "10244851547807400436"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Dl87am6N.js.map",
+        "hash": "8033840715845873549"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/page.js",
+        "hash": "1559452593083436539"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DB0j4go8.js.map",
+        "hash": "14041718398253250116"
+      },
+      {
+        "file": "dist/libs/ui/components/checkbox.d.ts",
+        "hash": "709052508482596892"
+      },
+      {
+        "file": "dist/libs/ui/components/aspect-ratio.d.ts",
+        "hash": "677842924690734855"
+      },
+      {
+        "file": "dist/apps/server/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume-v3/index.d.ts",
+        "hash": "4614543973559058333"
+      },
+      {
+        "file": "dist/libs/hooks/hooks/use-breakpoint.d.ts",
+        "hash": "13155817793551053272"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/register.js.map",
+        "hash": "112448740636886852"
+      },
+      {
+        "file": "dist/libs/schema/src/sample.d.ts",
+        "hash": "15049449801332355278"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/index.d.ts",
+        "hash": "12753253678802985827"
+      },
+      {
+        "file": "tools/compose/simple.yml",
+        "hash": "11200143594039730130"
+      },
+      {
+        "file": "dist/libs/dto/src/statistics/index.d.ts",
+        "hash": "5337739979448882220"
+      },
+      {
+        "file": "dist/apps/client/icon/dark.svg",
+        "hash": "4113911258916733874"
+      },
+      {
+        "file": "dist/libs/dto/src/feature/index.js",
+        "hash": "10143777725409208382"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BmfPGcbm.js",
+        "hash": "18166860905145656140"
+      },
+      {
+        "file": "dist/libs/schema/src/sample.js",
+        "hash": "17410191048517882214"
+      },
+      {
+        "file": "dist/libs/ui/components/hover-card.d.ts",
+        "hash": "17965704417325054187"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/login.js",
+        "hash": "15246390371149049176"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/page.js.map",
+        "hash": "6127567731062173648"
+      },
+      {
+        "file": "dist/libs/ui/variants/sheet.d.ts",
+        "hash": "13317999679781592954"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/template.js",
+        "hash": "3824158205852176750"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-D9AfTGVk.js",
+        "hash": "3529064692825330581"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/fonts.d.ts",
+        "hash": "9818148288595912230"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/experience.js.map",
+        "hash": "5452701446157600471"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/index.d.ts",
+        "hash": "12089529944501818229"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/array.js",
+        "hash": "12800274385091573177"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/education.js.map",
+        "hash": "16638775352243384054"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/index.js",
+        "hash": "11588249336447168589"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/create.js",
+        "hash": "12210512017721169202"
+      },
+      {
+        "file": "dist/libs/ui/components/button.d.ts",
+        "hash": "10483390935247347948"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BMWO4hZT.js.map",
+        "hash": "2591196220045258491"
+      },
+      {
+        "file": "dist/apps/client/support-logos/github-sponsors-light.svg",
+        "hash": "1317541975444950702"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/update.js.map",
+        "hash": "10487157297934747920"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CLVtR8mB.js",
+        "hash": "11020261685681095913"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-NZY7B-Qu.js",
+        "hash": "2512653889701878620"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/forgot-password.d.ts",
+        "hash": "17115908755381723226"
+      },
+      {
+        "file": "dist/apps/client/assets/he-Cu9_tEW-.js.map",
+        "hash": "11312460377496871901"
+      },
+      {
+        "file": "dist/apps/client/assets/ro-DxoLJlLT.js.map",
+        "hash": "11346323868476609449"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/url.d.ts",
+        "hash": "4185431743589869430"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/create.js.map",
+        "hash": "1607304136176934419"
+      },
+      {
+        "file": "dist/apps/client/assets/pl-_4LyHxlY.js.map",
+        "hash": "13127387032986077248"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/volunteer.js",
+        "hash": "7119742342179786240"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/award.js.map",
+        "hash": "7905847791597732101"
+      },
+      {
+        "file": "dist/libs/dto/src/secrets/secrets.js.map",
+        "hash": "3375481710443122587"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-C6XWunaJ.js",
+        "hash": "13266851665206841731"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-0h753ZXM.js.map",
+        "hash": "12009124744363247161"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/url.js",
+        "hash": "717696738628204564"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/item.js.map",
+        "hash": "4137676730612250770"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "3844383753932548732"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Bn0Wk_6n.js",
+        "hash": "6860892281830374681"
+      },
+      {
+        "file": "dist/apps/client/assets/uk-DNyPeQjw.js.map",
+        "hash": "3710674863115872693"
+      },
+      {
+        "file": "dist/apps/client/assets/fi-B79RY5i8.js.map",
+        "hash": "3359476712938575330"
+      },
+      {
+        "file": "dist/apps/client/assets/da-DalXLU_c.js",
+        "hash": "4901498969122478555"
+      },
+      {
+        "file": "dist/apps/client/screenshots/builder.jpg",
+        "hash": "12333087289887847947"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-ChUjg7Ya.js.map",
+        "hash": "6992279694042958510"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-3qCsxmJt.js",
+        "hash": "13828744921457054691"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/csv.js",
+        "hash": "5976379306735965290"
+      },
+      {
+        "file": "dist/libs/schema/src/metadata/index.js",
+        "hash": "7890339992029407311"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Br-C8KG4.js",
+        "hash": "13522391347180107025"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "14932722313705501266"
+      },
+      {
+        "file": "dist/apps/client/templates/json/template1.json",
+        "hash": "6686352886899800831"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/import.js.map",
+        "hash": "10135296320729576555"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/certification.d.ts",
+        "hash": "16653084271421511839"
+      },
+      {
+        "file": "dist/apps/client/assets/europass.png",
+        "hash": "4677991339838022052"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "9165945902733727902"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/education.d.ts",
+        "hash": "17112917713374320528"
+      },
+      {
+        "file": "dist/apps/client/assets/lt-Cem5_lQm.js",
+        "hash": "12320926162901457262"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume-v3/schema.d.ts",
+        "hash": "15232280455310687825"
+      },
+      {
+        "file": "dist/apps/client/assets/index-CEFEDXg6.css",
+        "hash": "3581385915337020548"
+      },
+      {
+        "file": "dist/libs/schema/src/index.d.ts",
+        "hash": "18445656461817010465"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/profile.js.map",
+        "hash": "16307192601290508898"
+      },
+      {
+        "file": "dist/apps/client/assets/ml-BbQLMsZI.js",
+        "hash": "5614085939320902193"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/style.js.map",
+        "hash": "8140223050488886828"
+      },
+      {
+        "file": "dist/libs/hooks/hooks/use-theme.d.ts",
+        "hash": "17765925527466822806"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-O1zr4auV.js",
+        "hash": "5031610880314699076"
+      },
+      {
+        "file": ".git/refs/original/refs/remotes/origin/main",
+        "hash": "6041335891370047255"
+      },
+      {
+        "file": "dist/libs/dto/package.json",
+        "hash": "13761050959966944011"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/delete.js.map",
+        "hash": "13778480685552147896"
+      },
+      {
+        "file": "dist/libs/hooks/index.d.ts",
+        "hash": "6726269803785814262"
+      },
+      {
+        "file": "tools/prisma/migrations/20240505101746_add_statistics_table/migration.sql",
+        "hash": "16384355106992502365"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/index.d.ts",
+        "hash": "9023472807155549820"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DZREWq-9.js.map",
+        "hash": "17689854528791996248"
+      },
+      {
+        "file": "dist/libs/ui/variants/index.d.ts",
+        "hash": "7993447915622795633"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/providers.d.ts",
+        "hash": "9002530909412273417"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/fonts.js.map",
+        "hash": "16159569245843762818"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-B-1w03CT.js.map",
+        "hash": "4700099687520054058"
+      },
+      {
+        "file": "dist/apps/client/assets/zh-cn-D30C3tIH.js.map",
+        "hash": "9504278944695383924"
+      },
+      {
+        "file": "dist/libs/ui/index.js",
+        "hash": "17166003212770827811"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-400-italic-B1MQ5tAZ.woff",
+        "hash": "12751819205721862517"
+      },
+      {
+        "file": "dist/libs/parser/src/json-resume/index.js.map",
+        "hash": "5325634282293103923"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/project.js.map",
+        "hash": "5494773424082589604"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-B-1w03CT.js",
+        "hash": "271781726203663538"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/index.js.map",
+        "hash": "1663220275681223351"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-ChUjg7Ya.js",
+        "hash": "1626279769214821087"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/string.js",
+        "hash": "4843650742421049749"
+      },
+      {
+        "file": "dist/apps/client/assets/mr-B6gEs8-x.js",
+        "hash": "9390212143009071498"
+      },
+      {
+        "file": "dist/libs/parser/src/index.js",
+        "hash": "14760515341699032633"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/promise.js.map",
+        "hash": "13781270465639376610"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-500-normal-Dh0NORqx.woff",
+        "hash": "16201162735165362401"
+      },
+      {
+        "file": "dist/libs/ui/components/switch.d.ts",
+        "hash": "6206877963837516811"
+      },
+      {
+        "file": "compose.yml",
+        "hash": "11200143594039730130"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/certification.js",
+        "hash": "10628412502877591155"
+      },
+      {
+        "file": "dist/apps/client/assets/it-U8hHPL4g.js",
+        "hash": "15641682733244764371"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/index.js.map",
+        "hash": "8567872203730829268"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BNLuOGP7.js.map",
+        "hash": "14417412030756577161"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/message.js.map",
+        "hash": "10076101299231284652"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-600-normal-ZykYOGKL.woff",
+        "hash": "12031263153746004505"
+      },
+      {
+        "file": "dist/apps/client/templates/jpg/template1.jpg",
+        "hash": "13884959573929481360"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-500-italic-gCVggy_x.woff",
+        "hash": "2336520256049645856"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/reference.js.map",
+        "hash": "14760792222201007180"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/index.d.ts",
+        "hash": "16562811812251758581"
+      },
+      {
+        "file": "dist/libs/ui/components/toggle.d.ts",
+        "hash": "18374490163214185266"
+      },
+      {
+        "file": "dist/apps/client/assets/vi-BaFzaGBC.js",
+        "hash": "353227360918468250"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/experience.d.ts",
+        "hash": "9221614980115603706"
+      },
+      {
+        "file": "dist/apps/client/assets/en-B_sNbYJ4.js.map",
+        "hash": "7804694919868802852"
+      },
+      {
+        "file": "dist/apps/client/assets/de-zk53odw3.js.map",
+        "hash": "1720965669301928264"
+      },
+      {
+        "file": "dist/apps/client/assets/af-BhelMt_t.js",
+        "hash": "16498376835109516803"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/language.js",
+        "hash": "10029076560921554772"
+      },
+      {
+        "file": "dist/apps/client/assets/kn-De-Hk3-t.js",
+        "hash": "17371099945305817314"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/language.d.ts",
+        "hash": "15911853287410034094"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-D_-chem0.js.map",
+        "hash": "236482417574850194"
+      },
+      {
+        "file": "dist/apps/client/assets/fr-D3mXX50s.js.map",
+        "hash": "8042948216480484452"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/item.d.ts",
+        "hash": "12191352678246495897"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CYdxXX3u.js",
+        "hash": "13043407483107032753"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/two-factor.d.ts",
+        "hash": "18272836763665381504"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/number.js",
+        "hash": "15566140090083134315"
+      },
+      {
+        "file": "dist/apps/client/assets/pt-br-Bui-7NKU.js.map",
+        "hash": "17357358116734246106"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/resume.d.ts",
+        "hash": "3566081691633763024"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/register.d.ts",
+        "hash": "11550283038458456675"
+      },
+      {
+        "file": "dist/libs/ui/variants/button.d.ts",
+        "hash": "1223086535427843238"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Dlj_xQIk.js",
+        "hash": "11852959874816309026"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/style.js",
+        "hash": "14094731273933414323"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/update.d.ts",
+        "hash": "7133955895462673847"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/index.js.map",
+        "hash": "3824795633854065533"
+      },
+      {
+        "file": "dist/apps/client/assets/es-z4RYc6Mb.js.map",
+        "hash": "8312255419413584140"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DWKyv_84.js.map",
+        "hash": "14987749915834986181"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "895975969575996570"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CABKPw6v.js",
+        "hash": "16870673756815117285"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BLzX0JTb.js",
+        "hash": "6569529538507284645"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-C6XWunaJ.js.map",
+        "hash": "6206683613347905077"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume/index.js.map",
+        "hash": "17486539447115364110"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/template.d.ts",
+        "hash": "11894793279390475022"
+      },
+      {
+        "file": "dist/libs/ui/components/toast.d.ts",
+        "hash": "5921850894495093617"
+      },
+      {
+        "file": "dist/apps/client/assets/el-D_-sPJEF.js.map",
+        "hash": "10404518706718763322"
+      },
+      {
+        "file": "dist/libs/schema/src/sample.js.map",
+        "hash": "15268179304154234354"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DlqILhne.js.map",
+        "hash": "11150065636709289016"
+      },
+      {
+        "file": "dist/libs/hooks/hooks/use-password-toggle.d.ts",
+        "hash": "15708359780562671596"
+      },
+      {
+        "file": "dist/apps/client/templates/pdf/template3.pdf",
+        "hash": "6711823437493406806"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-SqJIShVk.js",
+        "hash": "402774385063521444"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/import.d.ts",
+        "hash": "15882401757840397687"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/string.d.ts",
+        "hash": "16059506597677232619"
+      },
+      {
+        "file": "dist/libs/schema/src/index.js",
+        "hash": "16990564437329159511"
+      },
+      {
+        "file": "dist/libs/ui/components/alert-dialog.d.ts",
+        "hash": "3393786627358808180"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-400-normal-CdZtFfYS.woff2",
+        "hash": "12589676956911105282"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/skill.js.map",
+        "hash": "11091410957536667034"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/project.js",
+        "hash": "14623724751641790306"
+      },
+      {
+        "file": "dist/apps/artboard/index.html",
+        "hash": "12987874755067879781"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/position.js",
+        "hash": "10021704371606761147"
+      },
+      {
+        "file": "dist/apps/client/assets/sr-Cx0A3BLJ.js.map",
+        "hash": "6160484746186115045"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "17395782475299084262"
+      },
+      {
+        "file": "dist/apps/client/assets/ta-JLv-S1Q6.js",
+        "hash": "9295362588891022844"
+      },
+      {
+        "file": "dist/libs/ui/components/alert.d.ts",
+        "hash": "14838369653951392883"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/certification.d.ts",
+        "hash": "6601264043659674761"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-B93iw75S.js.map",
+        "hash": "6461441034260748974"
+      },
+      {
+        "file": "dist/apps/client/assets/pt-br-Bui-7NKU.js",
+        "hash": "6931959046320617481"
+      },
+      {
+        "file": "dist/apps/client/templates/pdf/template1.pdf",
+        "hash": "6067268198902932403"
+      },
+      {
+        "file": "dist/libs/ui/components/input.d.ts",
+        "hash": "2418417765537029286"
+      },
+      {
+        "file": "dist/libs/dto/src/index.js",
+        "hash": "4851784919970913433"
+      },
+      {
+        "file": "dist/libs/ui/index.d.ts",
+        "hash": "2913205892710389367"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-NZY7B-Qu.js.map",
+        "hash": "10618708701280146666"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "7024177821717923960"
+      },
+      {
+        "file": "dist/apps/client/assets/he-Cu9_tEW-.js",
+        "hash": "12659681560990538936"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/position.d.ts",
+        "hash": "5923588020136907005"
+      },
+      {
+        "file": "dist/apps/client/assets/ne-DRxjaFzc.js.map",
+        "hash": "17981088916584104435"
+      },
+      {
+        "file": "dist/apps/client/support-logos/github-sponsors-dark.svg",
+        "hash": "15205622758312035683"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/interest.js",
+        "hash": "16142571126356888017"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/color.js.map",
+        "hash": "2091394003413761766"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/string.js.map",
+        "hash": "6785877272175120469"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/index.js",
+        "hash": "14934770629349864688"
+      },
+      {
+        "file": "dist/apps/client/assets/ro-DxoLJlLT.js",
+        "hash": "16942117075647952615"
+      },
+      {
+        "file": "dist/apps/client/assets/sv-BKydikDC.js",
+        "hash": "17838270049446625787"
+      },
+      {
+        "file": "dist/apps/client/favicon.ico",
+        "hash": "12180179618011713793"
+      },
+      {
+        "file": "tools/prisma/migrations/20240507090221_make_last_signed_in_non_null/migration.sql",
+        "hash": "7556902387049850663"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Bn0Wk_6n.js.map",
+        "hash": "13861722848204360818"
+      },
+      {
+        "file": "dist/libs/ui/components/form.d.ts",
+        "hash": "11141073275877157130"
+      },
+      {
+        "file": "dist/apps/client/assets/ja-B123Eotp.js",
+        "hash": "10823135209912433316"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "5636852679192730747"
+      },
+      {
+        "file": "dist/apps/client/assets/de-zk53odw3.js",
+        "hash": "7065168389976344614"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-jO7G9wzg.js.map",
+        "hash": "9782905207401561362"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-3qCsxmJt.js.map",
+        "hash": "4836329257196172485"
+      },
+      {
+        "file": "dist/libs/ui/components/scroll-area.d.ts",
+        "hash": "11917682937054968230"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/language.js",
+        "hash": "13669376583761699819"
+      },
+      {
+        "file": "dist/apps/client/assets/cs-C-oOua5m.js",
+        "hash": "5048051302825047894"
+      },
+      {
+        "file": "dist/apps/client/assets/ml-BbQLMsZI.js.map",
+        "hash": "356999923158557134"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/error.js",
+        "hash": "7414066750073006530"
+      },
+      {
+        "file": "dist/libs/dto/src/secrets/index.d.ts",
+        "hash": "3075838583209509249"
+      },
+      {
+        "file": "dist/libs/dto/src/feature/index.js.map",
+        "hash": "3519644697477854422"
+      },
+      {
+        "file": "dist/libs/dto/src/contributors/index.js",
+        "hash": "13061048963157700496"
+      },
+      {
+        "file": "dist/apps/client/assets/te-DvXCP51w.js",
+        "hash": "2216589717659092781"
+      },
+      {
+        "file": "dist/apps/client/assets/fa-DPgWOJ2m.js.map",
+        "hash": "6494364422841374886"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/array.js.map",
+        "hash": "6842186247712674460"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/error.js.map",
+        "hash": "3146987405543496117"
+      },
+      {
+        "file": "dist/apps/client/assets/tr-GHx8feK9.js",
+        "hash": "17316103072766259186"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/email.js.map",
+        "hash": "2016776659018012012"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DZWOsnA_.js.map",
+        "hash": "6902411284851894010"
+      },
+      {
+        "file": "LICENSE.md",
+        "hash": "5482489377333255808"
+      },
+      {
+        "file": "dist/apps/client/assets/hi-DVUzL5eh.js.map",
+        "hash": "8929304705583467973"
+      },
+      {
+        "file": "dist/libs/ui/components/separator.d.ts",
+        "hash": "13866360605491959430"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-600-italic-a3Yrlk4Q.woff2",
+        "hash": "4046630035938532634"
+      },
+      {
+        "file": "dist/libs/parser/src/json-resume/index.js",
+        "hash": "16459190413885915237"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-500-italic-lSaIlDOP.woff2",
+        "hash": "2654840146668701989"
+      },
+      {
+        "file": "dist/libs/parser/src/interfaces/parser.js.map",
+        "hash": "1162912574721089887"
+      },
+      {
+        "file": "dist/libs/dto/src/secrets/secrets.js",
+        "hash": "9267930316685483529"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-vjacVNYB.js.map",
+        "hash": "1703541309405781466"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BLzX0JTb.js.map",
+        "hash": "1221664793518145229"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Ciyl3IyK.js",
+        "hash": "13416048668797774102"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-xfHBlgN1.js.map",
+        "hash": "11134611644803913895"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DlqILhne.js",
+        "hash": "3454256395904916954"
+      },
+      {
+        "file": "dist/apps/client/assets/ca-nfLpCXJb.js.map",
+        "hash": "1012857312335006548"
+      },
+      {
+        "file": "dist/libs/ui/variants/toast.d.ts",
+        "hash": "1918116297081176142"
+      },
+      {
+        "file": "dist/apps/client/assets/zh-tw-DLNr50kH.js",
+        "hash": "567692666384969084"
+      },
+      {
+        "file": "dist/libs/dto/src/user/update-user.js",
+        "hash": "2141013046880142706"
+      },
+      {
+        "file": "dist/libs/dto/src/user/index.js",
+        "hash": "16107481677357503820"
+      },
+      {
+        "file": "compose-dev.yml",
+        "hash": "14631186343231870912"
+      },
+      {
+        "file": "dist/apps/client/assets/km-DVHvXlKq.js.map",
+        "hash": "6098588644646966238"
+      },
+      {
+        "file": "dist/apps/client/sample-resumes/ditto.pdf",
+        "hash": "9423639834737088588"
+      },
+      {
+        "file": "dist/apps/client/assets/cs-C-oOua5m.js.map",
+        "hash": "4105869111888033894"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/custom-section.js",
+        "hash": "3319047568668411247"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/email.js",
+        "hash": "8672120285657534540"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-B93iw75S.js",
+        "hash": "8512536143116172431"
+      },
+      {
+        "file": "dist/apps/client/assets/index-DEC0KQp6.js.map",
+        "hash": "17097339321207793451"
+      },
+      {
+        "file": "dist/apps/client/support-logos/crowdin-dark.svg",
+        "hash": "13749905679641167570"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/dark/google.svg",
+        "hash": "5602569231231802616"
+      },
+      {
+        "file": "dist/apps/client/assets/nl-BsKZK7Y3.js.map",
+        "hash": "3806486762125790012"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CjTmHc5U.js",
+        "hash": "14458133706224679723"
+      },
+      {
+        "file": "dist/apps/client/templates/pdf/template2.pdf",
+        "hash": "2695012496188610360"
+      },
+      {
+        "file": "dist/libs/dto/src/index.d.ts",
+        "hash": "186910478539219979"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/custom-section.d.ts",
+        "hash": "2848033573108256685"
+      },
+      {
+        "file": "dist/libs/ui/components/skeleton.d.ts",
+        "hash": "3888664355538845217"
+      },
+      {
+        "file": "package.json",
+        "hash": "28999838438448221"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/forgot-password.js.map",
+        "hash": "1407971319393269811"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/volunteer.d.ts",
+        "hash": "16459422633453457733"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-D_-chem0.js",
+        "hash": "11015678653741424940"
+      },
+      {
+        "file": "dist/apps/artboard/assets/index-CzUR6yap.js.map",
+        "hash": "1045253551496919497"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/update-password.js",
+        "hash": "4332587478114560189"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/skill.js",
+        "hash": "13555262593059797512"
+      },
+      {
+        "file": "dist/apps/client/assets/hu-AWG6yAmB.js",
+        "hash": "6748832787436142528"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/language.js",
+        "hash": "10677863386926132747"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/update-password.d.ts",
+        "hash": "10262640628718960334"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/reset-password.js.map",
+        "hash": "11116490170703498661"
+      },
+      {
+        "file": "dist/apps/client/assets/nl-BsKZK7Y3.js",
+        "hash": "7191281650928553132"
+      },
+      {
+        "file": "dist/apps/client/assets/ko-BKcNwi2b.js",
+        "hash": "13007821230889287743"
+      },
+      {
+        "file": "dist/libs/schema/package.json",
+        "hash": "8291951900258843659"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "7835795355702415547"
+      },
+      {
+        "file": "dist/apps/client/assets/index-DEC0KQp6.js",
+        "hash": "17858603646498196519"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/skill.js.map",
+        "hash": "12046863577791048811"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-EV_HIiL1.js",
+        "hash": "11824187029056236880"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/email.d.ts",
+        "hash": "2598399596080774664"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/error.d.ts",
+        "hash": "8952319518656288601"
+      },
+      {
+        "file": "dist/apps/client/icon/light.svg",
+        "hash": "4113911258916733874"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CLVtR8mB.js.map",
+        "hash": "4277329369968965057"
+      },
+      {
+        "file": "apps/.DS_Store",
+        "hash": "16425269180572887792"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "2392540309333994723"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-9U8E8eRq.js.map",
+        "hash": "3532683839627068988"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CjTA2oPF.js.map",
+        "hash": "16787722726251314317"
+      },
+      {
+        "file": "dist/libs/dto/src/statistics/index.js.map",
+        "hash": "11075980810352449048"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/language.d.ts",
+        "hash": "3085580285301408551"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13445781542007367066"
+      },
+      {
+        "file": "dist/libs/ui/components/tabs.d.ts",
+        "hash": "6451579997626269604"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/import.js",
+        "hash": "9441228624167078417"
+      },
+      {
+        "file": "dist/libs/parser/src/index.js.map",
+        "hash": "4330674251565364411"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/style.d.ts",
+        "hash": "8223360695912242950"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/two-factor.js",
+        "hash": "4982350095654188541"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/certification.js.map",
+        "hash": "14366116547371545964"
+      },
+      {
+        "file": "dist/apps/client/assets/am-CavOlngB.js.map",
+        "hash": "4948270214658017320"
+      },
+      {
+        "file": ".idea/.gitignore",
+        "hash": "10286036308014790964"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "12459168801927543916"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-C8uthxNr.js",
+        "hash": "11667551810908710070"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DY-3dcJ8.js",
+        "hash": "8283903621686008382"
+      },
+      {
+        "file": "dist/apps/artboard/favicon.svg",
+        "hash": "10014684485528885083"
+      },
+      {
+        "file": "dist/libs/parser/src/json-resume/index.d.ts",
+        "hash": "13333126130693519202"
+      },
+      {
+        "file": "crowdin.yml",
+        "hash": "14562398026889430805"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/id.d.ts",
+        "hash": "3828457570592885810"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/register.js",
+        "hash": "6562282979848481771"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/number.d.ts",
+        "hash": "1313816235703061281"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/light/twilio.svg",
+        "hash": "805972699158598524"
+      },
+      {
+        "file": "dist/libs/schema/src/shared/index.js",
+        "hash": "2363440832719705648"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-D36wRZLe.js",
+        "hash": "11635834867728718656"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-jO7G9wzg.js",
+        "hash": "9031654493015064756"
+      },
+      {
+        "file": "dist/libs/ui/components/popover.d.ts",
+        "hash": "3954916933725284166"
+      },
+      {
+        "file": "dist/libs/ui/components/rich-input.d.ts",
+        "hash": "4819894484120317284"
+      },
+      {
+        "file": "dist/libs/schema/src/metadata/index.js.map",
+        "hash": "10975444870428628689"
+      },
+      {
+        "file": "dist/libs/dto/src/contributors/index.js.map",
+        "hash": "10616550592697520381"
+      },
+      {
+        "file": "dist/apps/client/assets/en-B_sNbYJ4.js",
+        "hash": "12297196333292833294"
+      },
+      {
+        "file": "tools/compose/nginx-proxy-manager.yml",
+        "hash": "17457231594127294356"
+      },
+      {
+        "file": "dist/apps/artboard/icon/light.svg",
+        "hash": "17751395884775645948"
+      },
+      {
+        "file": "tools/compose/traefik-secure.yml",
+        "hash": "17868887733249324996"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/types.js",
+        "hash": "14957053802387611311"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Br-C8KG4.js.map",
+        "hash": "5259739425887044129"
+      },
+      {
+        "file": "tools/prisma/schema.prisma",
+        "hash": "15153808216642767280"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/reset-password.js",
+        "hash": "17092174791443685399"
+      },
+      {
+        "file": "dist/apps/client/assets/uk-DNyPeQjw.js",
+        "hash": "6951704430618331833"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-B4qkE_nC.js",
+        "hash": "1242640850889482430"
+      },
+      {
+        "file": "dist/libs/ui/components/accordion.d.ts",
+        "hash": "14495561929939941202"
+      },
+      {
+        "file": "dist/apps/client/assets/ru-BB0yXux0.js",
+        "hash": "6290377313275889569"
+      },
+      {
+        "file": "README.md",
+        "hash": "6358731008126417141"
+      },
+      {
+        "file": "dist/apps/client/sample-resumes/ditto.jpg",
+        "hash": "8788598441128088897"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/volunteer.js.map",
+        "hash": "14168118407807464913"
+      },
+      {
+        "file": "dist/libs/ui/index.mjs",
+        "hash": "8110225698953351741"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-600-normal-BGOKnPO6.woff2",
+        "hash": "6100030294648764486"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/index.js",
+        "hash": "2265643241196056164"
+      },
+      {
+        "file": "dist/libs/dto/src/user/update-user.js.map",
+        "hash": "2542724639718397260"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/resume.js",
+        "hash": "10877565571454913291"
+      },
+      {
+        "file": "dist/apps/client/assets/ru-BB0yXux0.js.map",
+        "hash": "4254792101658514058"
+      },
+      {
+        "file": "dist/apps/client/logo/dark.svg",
+        "hash": "17778935775997760921"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/message.js",
+        "hash": "17822160886870135127"
+      },
+      {
+        "file": "dist/apps/client/assets/sr-Cx0A3BLJ.js",
+        "hash": "333959084860766063"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DXkmKqGi.js.map",
+        "hash": "17114293419495279693"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/response.js.map",
+        "hash": "15655002086231952278"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/forgot-password.js",
+        "hash": "7179401108279876895"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/index.js.map",
+        "hash": "6678208620079905047"
+      },
+      {
+        "file": "lingui.config.ts",
+        "hash": "2904803566143606614"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/publication.d.ts",
+        "hash": "9446599672537059882"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-Ciyl3IyK.js.map",
+        "hash": "3903454001787130231"
+      },
+      {
+        "file": "dist/libs/ui/variants/toggle.d.ts",
+        "hash": "15146793701609485607"
+      },
+      {
+        "file": "dist/apps/client/backgrounds/wriitng_with_AI.jpg",
+        "hash": "5802425344226135018"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume-v3/index.js.map",
+        "hash": "17258896886375265847"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/light/zalando.svg",
+        "hash": "14373962238273259785"
+      },
+      {
+        "file": "dist/apps/client/assets/tr-GHx8feK9.js.map",
+        "hash": "13561412171486886448"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/date.js.map",
+        "hash": "5820468448529102726"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-k_-cb_JN.js",
+        "hash": "9731486688306513046"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BTIvNhfe.js.map",
+        "hash": "1379865582798679552"
+      },
+      {
+        "file": "dist/apps/client/assets/bg-BD6BN2qX.js",
+        "hash": "337929986790858030"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/providers.js",
+        "hash": "13253707059828812085"
+      },
+      {
+        "file": "dist/apps/artboard/favicon.ico",
+        "hash": "14341031277693941069"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-vjacVNYB.js",
+        "hash": "1009798287152772588"
+      },
+      {
+        "file": "dist/libs/parser/src/json-resume/schema.d.ts",
+        "hash": "11594334096999800298"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume-v3/schema.js.map",
+        "hash": "15370092570871806181"
+      },
+      {
+        "file": "dist/libs/parser/src/reactive-resume/index.d.ts",
+        "hash": "6277790454184885813"
+      },
+      {
+        "file": "dist/apps/client/assets/ta-JLv-S1Q6.js.map",
+        "hash": "17418518656635202036"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/response.d.ts",
+        "hash": "15945411806376044268"
+      },
+      {
+        "file": "dist/apps/client/assets/pt-BQJI1Y-y.js.map",
+        "hash": "6212307714389395692"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-DB0j4go8.js",
+        "hash": "10916561494689030178"
+      },
+      {
+        "file": "dist/libs/ui/components/label.d.ts",
+        "hash": "16137321764704499335"
+      },
+      {
+        "file": "dist/libs/hooks/package.json",
+        "hash": "4370716221162490288"
+      },
+      {
+        "file": "dist/libs/ui/components/toggle-group.d.ts",
+        "hash": "7483761552541729839"
+      },
+      {
+        "file": "dist/apps/client/support-logos/open-collective-light.svg",
+        "hash": "12800918125343297059"
+      },
+      {
+        "file": "dist/libs/schema/src/metadata/index.d.ts",
+        "hash": "10244253914585757245"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/education.js",
+        "hash": "8343211163685540528"
+      },
+      {
+        "file": "dist/libs/ui/components/resizable-panel.d.ts",
+        "hash": "1159344218030092169"
+      },
+      {
+        "file": "dist/libs/dto/src/index.js.map",
+        "hash": "7670805169788953914"
+      },
+      {
+        "file": "dist/libs/schema/src/basics/index.js",
+        "hash": "11053746880929142436"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/color.d.ts",
+        "hash": "164789275045422146"
+      },
+      {
+        "file": "dist/apps/client/templates/json/template2.json",
+        "hash": "5484032591839899964"
+      },
+      {
+        "file": "tools/compose/development.yml",
+        "hash": "14631186343231870912"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/providers.js.map",
+        "hash": "13449058947397619214"
+      },
+      {
+        "file": "dist/apps/client/assets/ibm-plex-sans-latin-400-italic-BsicMZk3.woff2",
+        "hash": "15791160241632282988"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "14631144957405360646"
+      },
+      {
+        "file": "dist/apps/client/support-logos/open-collective-dark.svg",
+        "hash": "3073099821214689387"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/number.js.map",
+        "hash": "3730281276031441930"
+      },
+      {
+        "file": "dist/libs/dto/src/statistics/index.js",
+        "hash": "152564575042299628"
+      },
+      {
+        "file": "dist/libs/dto/src/resume/url.js",
+        "hash": "15335704169756928831"
+      },
+      {
+        "file": "dist/libs/schema/src/sections/index.js.map",
+        "hash": "14459013341843541471"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/profile.d.ts",
+        "hash": "14187086440200796534"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-O1zr4auV.js.map",
+        "hash": "6973392650600914165"
+      },
+      {
+        "file": "dist/apps/client/brand-logos/dark/twilio.svg",
+        "hash": "8232908938151794778"
+      },
+      {
+        "file": "dist/libs/utils/src/namespaces/object.js.map",
+        "hash": "4229550386697002214"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "6304482859523072847"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-B4qkE_nC.js.map",
+        "hash": "5165482121957772317"
+      },
+      {
+        "file": "dist/libs/dto/src/auth/two-factor.js.map",
+        "hash": "8425431012382309804"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-UsgLQagL.js.map",
+        "hash": "7622076579196523523"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-BMWO4hZT.js",
+        "hash": "12508751014220732228"
+      },
+      {
+        "file": "dist/libs/parser/src/linkedin/schema/position.js.map",
+        "hash": "15719702933562838252"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-0h753ZXM.js",
+        "hash": "10686827293328507171"
+      },
+      {
+        "file": "dist/apps/client/assets/messages-CB_tyzKb.js",
+        "hash": "10155532285350678811"
+      },
+      {
+        "file": "dist/libs/ui/components/badge-input.d.ts",
+        "hash": "17890542544701740061"
+      }
+    ],
+    "projectFileMap": {
+      "hooks": [
+        {
+          "file": "libs/hooks/.eslintrc.json",
+          "hash": "4166942475683579515"
+        },
+        {
+          "file": "libs/hooks/package.json",
+          "hash": "4370716221162490288"
+        },
+        {
+          "file": "libs/hooks/project.json",
+          "hash": "9562043862544435243"
+        },
+        {
+          "file": "libs/hooks/src/hooks/use-breakpoint.ts",
+          "hash": "15029793669360496688",
+          "deps": [
+            "utils",
+            "npm:react",
+            "npm:use-breakpoint"
+          ]
+        },
+        {
+          "file": "libs/hooks/src/hooks/use-form-field.ts",
+          "hash": "15339093392106738476",
+          "deps": [
+            "npm:react",
+            "npm:react-hook-form"
+          ]
+        },
+        {
+          "file": "libs/hooks/src/hooks/use-password-toggle.ts",
+          "hash": "3081375084080534717",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/hooks/src/hooks/use-theme.ts",
+          "hash": "12223496232131800874",
+          "deps": [
+            "npm:react",
+            "npm:usehooks-ts"
+          ]
+        },
+        {
+          "file": "libs/hooks/src/index.ts",
+          "hash": "15153310531018775641"
+        },
+        {
+          "file": "libs/hooks/tsconfig.json",
+          "hash": "6996585143515498368"
+        },
+        {
+          "file": "libs/hooks/tsconfig.lib.json",
+          "hash": "2270014238471540235"
+        },
+        {
+          "file": "libs/hooks/tsconfig.spec.json",
+          "hash": "3905317577701168930"
+        },
+        {
+          "file": "libs/hooks/vite.config.ts",
+          "hash": "17342059192970653851",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:@vitejs/plugin-react-swc",
+            "npm:vite",
+            "npm:vite-plugin-dts"
+          ]
+        }
+      ],
+      "artboard": [
+        {
+          "file": "apps/artboard/.eslintrc.json",
+          "hash": "13191015176494656349"
+        },
+        {
+          "file": "apps/artboard/index.html",
+          "hash": "1362638886382915792"
+        },
+        {
+          "file": "apps/artboard/postcss.config.js",
+          "hash": "8460736116372828212"
+        },
+        {
+          "file": "apps/artboard/project.json",
+          "hash": "6088969813325233017"
+        },
+        {
+          "file": "apps/artboard/public/favicon.ico",
+          "hash": "14341031277693941069"
+        },
+        {
+          "file": "apps/artboard/public/favicon.png",
+          "hash": "11547571018533841104"
+        },
+        {
+          "file": "apps/artboard/public/favicon.svg",
+          "hash": "10014684485528885083"
+        },
+        {
+          "file": "apps/artboard/public/icon/dark.svg",
+          "hash": "4230213572436627847"
+        },
+        {
+          "file": "apps/artboard/public/icon/light.svg",
+          "hash": "17751395884775645948"
+        },
+        {
+          "file": "apps/artboard/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/artboard/src/components/page.tsx",
+          "hash": "4332450334466559790",
+          "deps": [
+            "hooks",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/components/picture.tsx",
+          "hash": "16608530127879777101",
+          "deps": [
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/main.tsx",
+          "hash": "4499688534978453258",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/pages/artboard.tsx",
+          "hash": "14063196672432767835",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:webfontloader"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/pages/builder.tsx",
+          "hash": "3222314498731021307",
+          "deps": [
+            "schema",
+            "utils",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-zoom-pan-pinch"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/pages/preview.tsx",
+          "hash": "1664968196432569324",
+          "deps": [
+            "schema",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/providers/index.tsx",
+          "hash": "2243621956821346530",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/router/index.tsx",
+          "hash": "7004668112294110410",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/store/artboard.ts",
+          "hash": "8886535108999370260",
+          "deps": [
+            "schema",
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/styles/main.css",
+          "hash": "17057334978966904255"
+        },
+        {
+          "file": "apps/artboard/src/templates/index.tsx",
+          "hash": "5972572974456743776",
+          "deps": [
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/templates/template1.tsx",
+          "hash": "16732703447250102507",
+          "deps": [
+            "schema",
+            "utils",
+            "npm:lodash.get",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/templates/template2.tsx",
+          "hash": "13976183254930035525",
+          "deps": [
+            "schema",
+            "utils",
+            "npm:lodash.get",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/templates/template3.tsx",
+          "hash": "10743322573018081818",
+          "deps": [
+            "schema",
+            "utils",
+            "npm:lodash.get",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/artboard/src/types/template.ts",
+          "hash": "409827915673482128",
+          "deps": [
+            "schema"
+          ]
+        },
+        {
+          "file": "apps/artboard/tailwind.config.js",
+          "hash": "14109157089866771552",
+          "deps": [
+            "npm:@nx/react",
+            "npm:@tailwindcss/typography"
+          ]
+        },
+        {
+          "file": "apps/artboard/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/artboard/tsconfig.json",
+          "hash": "2843773793157498944"
+        },
+        {
+          "file": "apps/artboard/vite.config.ts",
+          "hash": "3730388779241239432",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:@vitejs/plugin-react-swc",
+            "npm:vite"
+          ]
+        }
+      ],
+      "parser": [
+        {
+          "file": "libs/parser/.eslintrc.json",
+          "hash": "10905178498824427073"
+        },
+        {
+          "file": "libs/parser/.swcrc",
+          "hash": "16777374493166073853"
+        },
+        {
+          "file": "libs/parser/package.json",
+          "hash": "1113376082739950244",
+          "deps": [
+            "schema",
+            "utils",
+            "npm:nestjs-zod",
+            "npm:zod",
+            "npm:@paralleldrive/cuid2",
+            "npm:jszip",
+            "npm:@swc/helpers"
+          ]
+        },
+        {
+          "file": "libs/parser/project.json",
+          "hash": "6743838513583445037"
+        },
+        {
+          "file": "libs/parser/src/index.ts",
+          "hash": "7853494743505950933"
+        },
+        {
+          "file": "libs/parser/src/interfaces/parser.ts",
+          "hash": "4796265729193877311",
+          "deps": [
+            "schema",
+            "npm:nestjs-zod",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/json-resume/index.ts",
+          "hash": "13255853649573201584",
+          "deps": [
+            "npm:@paralleldrive/cuid2",
+            "schema",
+            "utils",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/json-resume/schema.ts",
+          "hash": "2739349276008063947",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/index.ts",
+          "hash": "6474922847585478810",
+          "deps": [
+            "npm:@paralleldrive/cuid2",
+            "schema",
+            "utils",
+            "npm:jszip",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/certification.ts",
+          "hash": "4248281665018218392",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/education.ts",
+          "hash": "6402973433997499815",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/email.ts",
+          "hash": "7226170839643318958",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/index.ts",
+          "hash": "2053506376207795357",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/language.ts",
+          "hash": "13116670268241152549",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/position.ts",
+          "hash": "10958895489225754551",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/profile.ts",
+          "hash": "2455770372908599593",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/project.ts",
+          "hash": "17652113324264593902",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/linkedin/schema/skill.ts",
+          "hash": "1145178011667550503",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/reactive-resume-v3/index.ts",
+          "hash": "8593611914468604565",
+          "deps": [
+            "npm:@paralleldrive/cuid2",
+            "schema",
+            "utils",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/reactive-resume-v3/schema.ts",
+          "hash": "14479582910729455529",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/src/reactive-resume/index.ts",
+          "hash": "11506735203106755998",
+          "deps": [
+            "schema",
+            "utils",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/parser/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/parser/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "libs/parser/tsconfig.spec.json",
+          "hash": "3905317577701168930"
+        },
+        {
+          "file": "libs/parser/vite.config.ts",
+          "hash": "10240243554968542795",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:vite"
+          ]
+        }
+      ],
+      "client": [
+        {
+          "file": "apps/client/.DS_Store",
+          "hash": "9412213938675344359"
+        },
+        {
+          "file": "apps/client/.eslintrc.json",
+          "hash": "2403092797367994948"
+        },
+        {
+          "file": "apps/client/index.html",
+          "hash": "4511748681096512502"
+        },
+        {
+          "file": "apps/client/postcss.config.js",
+          "hash": "15072321357058817229"
+        },
+        {
+          "file": "apps/client/project.json",
+          "hash": "9084555109477595188"
+        },
+        {
+          "file": "apps/client/proxy.conf.json",
+          "hash": "4941441599935815910"
+        },
+        {
+          "file": "apps/client/public/.DS_Store",
+          "hash": "17907597093770734637"
+        },
+        {
+          "file": "apps/client/public/assets/europass.png",
+          "hash": "4677991339838022052"
+        },
+        {
+          "file": "apps/client/public/backgrounds/ChatGPT_Carousel1.jpg",
+          "hash": "8477574248957434253"
+        },
+        {
+          "file": "apps/client/public/backgrounds/wriitng_with_AI.jpg",
+          "hash": "5802425344226135018"
+        },
+        {
+          "file": "apps/client/public/brand-logos/dark/amazon.svg",
+          "hash": "9317660951462260570"
+        },
+        {
+          "file": "apps/client/public/brand-logos/dark/google.svg",
+          "hash": "5602569231231802616"
+        },
+        {
+          "file": "apps/client/public/brand-logos/dark/postman.svg",
+          "hash": "11968451728378002129"
+        },
+        {
+          "file": "apps/client/public/brand-logos/dark/twilio.svg",
+          "hash": "8232908938151794778"
+        },
+        {
+          "file": "apps/client/public/brand-logos/dark/zalando.svg",
+          "hash": "9325599690994025961"
+        },
+        {
+          "file": "apps/client/public/brand-logos/light/amazon.svg",
+          "hash": "3000715424921233277"
+        },
+        {
+          "file": "apps/client/public/brand-logos/light/google.svg",
+          "hash": "9994428982192330045"
+        },
+        {
+          "file": "apps/client/public/brand-logos/light/postman.svg",
+          "hash": "12355835373727892657"
+        },
+        {
+          "file": "apps/client/public/brand-logos/light/twilio.svg",
+          "hash": "805972699158598524"
+        },
+        {
+          "file": "apps/client/public/brand-logos/light/zalando.svg",
+          "hash": "14373962238273259785"
+        },
+        {
+          "file": "apps/client/public/favicon.ico",
+          "hash": "12180179618011713793"
+        },
+        {
+          "file": "apps/client/public/icon/dark.svg",
+          "hash": "4113911258916733874"
+        },
+        {
+          "file": "apps/client/public/icon/light.svg",
+          "hash": "4113911258916733874"
+        },
+        {
+          "file": "apps/client/public/logo/dark.svg",
+          "hash": "17778935775997760921"
+        },
+        {
+          "file": "apps/client/public/logo/light.svg",
+          "hash": "4113911258916733874"
+        },
+        {
+          "file": "apps/client/public/sample-resumes/ditto.jpg",
+          "hash": "8788598441128088897"
+        },
+        {
+          "file": "apps/client/public/sample-resumes/ditto.pdf",
+          "hash": "9423639834737088588"
+        },
+        {
+          "file": "apps/client/public/screenshots/builder.jpg",
+          "hash": "12333087289887847947"
+        },
+        {
+          "file": "apps/client/public/scripts/initialize-theme.js",
+          "hash": "11032052540381402219"
+        },
+        {
+          "file": "apps/client/public/support-logos/crowdin-dark.svg",
+          "hash": "13749905679641167570"
+        },
+        {
+          "file": "apps/client/public/support-logos/crowdin-light.svg",
+          "hash": "1899056920553852072"
+        },
+        {
+          "file": "apps/client/public/support-logos/github-sponsors-dark.svg",
+          "hash": "15205622758312035683"
+        },
+        {
+          "file": "apps/client/public/support-logos/github-sponsors-light.svg",
+          "hash": "1317541975444950702"
+        },
+        {
+          "file": "apps/client/public/support-logos/open-collective-dark.svg",
+          "hash": "3073099821214689387"
+        },
+        {
+          "file": "apps/client/public/support-logos/open-collective-light.svg",
+          "hash": "12800918125343297059"
+        },
+        {
+          "file": "apps/client/public/support-logos/paypal.svg",
+          "hash": "523285331105688792"
+        },
+        {
+          "file": "apps/client/public/templates/jpg/template1.jpg",
+          "hash": "13884959573929481360"
+        },
+        {
+          "file": "apps/client/public/templates/jpg/template2.jpg",
+          "hash": "5451143391802010142"
+        },
+        {
+          "file": "apps/client/public/templates/jpg/template3.jpg",
+          "hash": "5914873659944771439"
+        },
+        {
+          "file": "apps/client/public/templates/json/template1.json",
+          "hash": "6686352886899800831"
+        },
+        {
+          "file": "apps/client/public/templates/json/template2.json",
+          "hash": "5484032591839899964"
+        },
+        {
+          "file": "apps/client/public/templates/json/template3.json",
+          "hash": "8753057887850089090"
+        },
+        {
+          "file": "apps/client/public/templates/pdf/template1.pdf",
+          "hash": "6067268198902932403"
+        },
+        {
+          "file": "apps/client/public/templates/pdf/template2.pdf",
+          "hash": "2695012496188610360"
+        },
+        {
+          "file": "apps/client/public/templates/pdf/template3.pdf",
+          "hash": "6711823437493406806"
+        },
+        {
+          "file": "apps/client/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/client/src/components/ai-actions.tsx",
+          "hash": "8705386630410196513",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/components/icon.tsx",
+          "hash": "5040907320727719334",
+          "deps": [
+            "hooks",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/client/src/components/locale-combobox.tsx",
+          "hash": "16411127452173314754",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils",
+            "npm:fuzzy",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/components/locale-switch.tsx",
+          "hash": "3672049012213225709",
+          "deps": [
+            "npm:@lingui/react",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/components/logo.tsx",
+          "hash": "16969265730023848375",
+          "deps": [
+            "hooks",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/client/src/components/theme-switch.tsx",
+          "hash": "666128386322348914",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "hooks",
+            "ui",
+            "npm:framer-motion",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/components/user-avatar.tsx",
+          "hash": "2544669944368130543",
+          "deps": [
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/client/src/components/user-options.tsx",
+          "hash": "671877673188419358",
+          "deps": [
+            "npm:@lingui/macro",
+            "ui",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/constants/colors.ts",
+          "hash": "10793253699131002840"
+        },
+        {
+          "file": "apps/client/src/constants/helmet.ts",
+          "hash": "13265076384133066500",
+          "deps": [
+            "npm:react-helmet-async"
+          ]
+        },
+        {
+          "file": "apps/client/src/constants/llm.ts",
+          "hash": "10041897999816831162"
+        },
+        {
+          "file": "apps/client/src/constants/parallax-tilt.ts",
+          "hash": "12056559324922522869",
+          "deps": [
+            "npm:react-parallax-tilt"
+          ]
+        },
+        {
+          "file": "apps/client/src/constants/query-keys.ts",
+          "hash": "2991700718416860622",
+          "deps": [
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/hooks/use-toast.ts",
+          "hash": "4800474176988562378",
+          "deps": [
+            "npm:@paralleldrive/cuid2",
+            "ui",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/libs/axios.ts",
+          "hash": "8362005256544608045",
+          "deps": [
+            "npm:@lingui/macro",
+            "utils",
+            "npm:axios",
+            "npm:axios-auth-refresh",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/libs/dayjs.ts",
+          "hash": "17328852228730573071",
+          "deps": [
+            "npm:dayjs",
+            [
+              "npm:dayjs",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/client/src/libs/lingui.ts",
+          "hash": "18254849238950858878",
+          "deps": [
+            "npm:@lingui/core",
+            "npm:dayjs"
+          ]
+        },
+        {
+          "file": "apps/client/src/libs/query-client.ts",
+          "hash": "14341560623500778666",
+          "deps": [
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/locales/af-ZA/messages.po",
+          "hash": "4797503376119450441"
+        },
+        {
+          "file": "apps/client/src/locales/am-ET/messages.po",
+          "hash": "11141799197670549332"
+        },
+        {
+          "file": "apps/client/src/locales/ar-SA/messages.po",
+          "hash": "3580252420067774358"
+        },
+        {
+          "file": "apps/client/src/locales/bg-BG/messages.po",
+          "hash": "8247777119638395657"
+        },
+        {
+          "file": "apps/client/src/locales/bn-BD/messages.po",
+          "hash": "9103479379144824456"
+        },
+        {
+          "file": "apps/client/src/locales/ca-ES/messages.po",
+          "hash": "1949384932672594646"
+        },
+        {
+          "file": "apps/client/src/locales/cs-CZ/messages.po",
+          "hash": "756208061963766871"
+        },
+        {
+          "file": "apps/client/src/locales/da-DK/messages.po",
+          "hash": "7894138630588071263"
+        },
+        {
+          "file": "apps/client/src/locales/de-DE/messages.po",
+          "hash": "17396373373789645045"
+        },
+        {
+          "file": "apps/client/src/locales/el-GR/messages.po",
+          "hash": "4511346063802289605"
+        },
+        {
+          "file": "apps/client/src/locales/en-US/messages.po",
+          "hash": "2027241295377381195"
+        },
+        {
+          "file": "apps/client/src/locales/es-ES/messages.po",
+          "hash": "17144624566983273668"
+        },
+        {
+          "file": "apps/client/src/locales/fa-IR/messages.po",
+          "hash": "9132495873358688549"
+        },
+        {
+          "file": "apps/client/src/locales/fi-FI/messages.po",
+          "hash": "3032834161808126403"
+        },
+        {
+          "file": "apps/client/src/locales/fr-FR/messages.po",
+          "hash": "11052100121563495125"
+        },
+        {
+          "file": "apps/client/src/locales/he-IL/messages.po",
+          "hash": "4036946196451869120"
+        },
+        {
+          "file": "apps/client/src/locales/hi-IN/messages.po",
+          "hash": "5991840083936109809"
+        },
+        {
+          "file": "apps/client/src/locales/hu-HU/messages.po",
+          "hash": "18337841722318118727"
+        },
+        {
+          "file": "apps/client/src/locales/id-ID/messages.po",
+          "hash": "15722257085605996494"
+        },
+        {
+          "file": "apps/client/src/locales/it-IT/messages.po",
+          "hash": "7056710707479869138"
+        },
+        {
+          "file": "apps/client/src/locales/ja-JP/messages.po",
+          "hash": "8692372987363193425"
+        },
+        {
+          "file": "apps/client/src/locales/km-KH/messages.po",
+          "hash": "5041739109839113763"
+        },
+        {
+          "file": "apps/client/src/locales/kn-IN/messages.po",
+          "hash": "16067830522421815694"
+        },
+        {
+          "file": "apps/client/src/locales/ko-KR/messages.po",
+          "hash": "4955053159823374449"
+        },
+        {
+          "file": "apps/client/src/locales/lt-LT/messages.po",
+          "hash": "3404581779262673193"
+        },
+        {
+          "file": "apps/client/src/locales/lv-LV/messages.po",
+          "hash": "6691150854057803376"
+        },
+        {
+          "file": "apps/client/src/locales/ml-IN/messages.po",
+          "hash": "6713203415090473433"
+        },
+        {
+          "file": "apps/client/src/locales/mr-IN/messages.po",
+          "hash": "964750907400489473"
+        },
+        {
+          "file": "apps/client/src/locales/ms-MY/messages.po",
+          "hash": "5347961451908919746"
+        },
+        {
+          "file": "apps/client/src/locales/ne-NP/messages.po",
+          "hash": "5935870009487404192"
+        },
+        {
+          "file": "apps/client/src/locales/nl-NL/messages.po",
+          "hash": "4679076454062746973"
+        },
+        {
+          "file": "apps/client/src/locales/no-NO/messages.po",
+          "hash": "7862151237986701355"
+        },
+        {
+          "file": "apps/client/src/locales/or-IN/messages.po",
+          "hash": "9506679208825024883"
+        },
+        {
+          "file": "apps/client/src/locales/pl-PL/messages.po",
+          "hash": "6725556916000926583"
+        },
+        {
+          "file": "apps/client/src/locales/pt-BR/messages.po",
+          "hash": "11102742772117307280"
+        },
+        {
+          "file": "apps/client/src/locales/pt-PT/messages.po",
+          "hash": "9074932179752774628"
+        },
+        {
+          "file": "apps/client/src/locales/ro-RO/messages.po",
+          "hash": "1856616855387684056"
+        },
+        {
+          "file": "apps/client/src/locales/ru-RU/messages.po",
+          "hash": "9762748544589194519"
+        },
+        {
+          "file": "apps/client/src/locales/sq-AL/messages.po",
+          "hash": "6786438385871789840"
+        },
+        {
+          "file": "apps/client/src/locales/sr-SP/messages.po",
+          "hash": "18429889713647606864"
+        },
+        {
+          "file": "apps/client/src/locales/sv-SE/messages.po",
+          "hash": "3743165610869968749"
+        },
+        {
+          "file": "apps/client/src/locales/ta-IN/messages.po",
+          "hash": "9465317980049913057"
+        },
+        {
+          "file": "apps/client/src/locales/te-IN/messages.po",
+          "hash": "8325668840125016301"
+        },
+        {
+          "file": "apps/client/src/locales/th-TH/messages.po",
+          "hash": "6394258334237334787"
+        },
+        {
+          "file": "apps/client/src/locales/tr-TR/messages.po",
+          "hash": "17388694921458969366"
+        },
+        {
+          "file": "apps/client/src/locales/uk-UA/messages.po",
+          "hash": "16697384504782700442"
+        },
+        {
+          "file": "apps/client/src/locales/uz-UZ/messages.po",
+          "hash": "17170581491190780845"
+        },
+        {
+          "file": "apps/client/src/locales/vi-VN/messages.po",
+          "hash": "10276005010321793557"
+        },
+        {
+          "file": "apps/client/src/locales/zh-CN/messages.po",
+          "hash": "9146248358530435599"
+        },
+        {
+          "file": "apps/client/src/locales/zh-TW/messages.po",
+          "hash": "17834191810849532631"
+        },
+        {
+          "file": "apps/client/src/main.tsx",
+          "hash": "4499688534978453258",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/_components/social-auth.tsx",
+          "hash": "4520510212588819385",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/backup-otp/page.tsx",
+          "hash": "15731592834546943399",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "hooks",
+            "ui",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-hook-form",
+            "npm:react-router-dom",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/forgot-password/page.tsx",
+          "hash": "10017102552901250290",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "ui",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-hook-form",
+            "npm:react-router-dom",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/layout.tsx",
+          "hash": "4093476432865092485",
+          "deps": [
+            "npm:@lingui/macro",
+            "utils",
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/login/page.tsx",
+          "hash": "6719021812225916705",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "hooks",
+            "ui",
+            "utils",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-hook-form",
+            "npm:react-router-dom",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/register/page.tsx",
+          "hash": "12199074328994147559",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "hooks",
+            "ui",
+            "utils",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-hook-form",
+            "npm:react-router-dom",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/reset-password/page.tsx",
+          "hash": "13629392538431585599",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "dto",
+            "hooks",
+            "ui",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-hook-form",
+            "npm:react-router-dom",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/verify-email/page.tsx",
+          "hash": "7604502891264704581",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/auth/verify-otp/page.tsx",
+          "hash": "13425730649735723067",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "hooks",
+            "ui",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-hook-form",
+            "npm:react-router-dom",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/_components/header.tsx",
+          "hash": "14396235170071136023",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/_components/toolbar.tsx",
+          "hash": "13149560276850988866",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/layout.tsx",
+          "hash": "2642666214181104779",
+          "deps": [
+            "hooks",
+            "ui",
+            "utils",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/page.tsx",
+          "hash": "13021757102918653204",
+          "deps": [
+            "npm:@lingui/macro",
+            "dto",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/awards.tsx",
+          "hash": "11327925221012048844",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/certifications.tsx",
+          "hash": "4306920059613396083",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx",
+          "hash": "563686321918107224",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx",
+          "hash": "4918217088537651847",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/experience.tsx",
+          "hash": "14299692137330485912",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx",
+          "hash": "4313813122311467168",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/languages.tsx",
+          "hash": "9107098387378798430",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/profiles.tsx",
+          "hash": "2680123456999269925",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:usehooks-ts",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/projects.tsx",
+          "hash": "1150960438635813932",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/publications.tsx",
+          "hash": "9846864692228582283",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx",
+          "hash": "3289911337762509699",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/skills.tsx",
+          "hash": "83681220110513791",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx",
+          "hash": "2294246861749733087",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "schema",
+            "ui",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/index.tsx",
+          "hash": "286459898902216586",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/basics.tsx",
+          "hash": "7538685438921074567",
+          "deps": [
+            "npm:@lingui/macro",
+            "schema",
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/custom/section.tsx",
+          "hash": "4964830318883217382",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@paralleldrive/cuid2",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "utils",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/picture/options.tsx",
+          "hash": "16400739806543962118",
+          "deps": [
+            "npm:@lingui/macro",
+            "ui",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/picture/section.tsx",
+          "hash": "10124417051791441045",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/shared/section-base.tsx",
+          "hash": "11789251005125732027",
+          "deps": [
+            "npm:@dnd-kit/core",
+            "npm:@dnd-kit/modifiers",
+            "npm:@dnd-kit/sortable",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "utils",
+            "npm:framer-motion",
+            "npm:lodash.get"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx",
+          "hash": "5276857244323525257",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@paralleldrive/cuid2",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:immer",
+            "npm:lodash.get",
+            "npm:react",
+            "npm:react-hook-form"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/shared/section-icon.tsx",
+          "hash": "5293557242430408899",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:lodash.get"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/shared/section-list-item.tsx",
+          "hash": "1167176498465899742",
+          "deps": [
+            "npm:@dnd-kit/sortable",
+            "npm:@dnd-kit/utilities",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/shared/section-options.tsx",
+          "hash": "11775783947674985403",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:lodash.get",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/shared/url-input.tsx",
+          "hash": "5677666750561220948",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/left/sections/summary.tsx",
+          "hash": "16409190557080624262",
+          "deps": [
+            "schema",
+            "ui",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/right/index.tsx",
+          "hash": "15030701813917235495",
+          "deps": [
+            "npm:@lingui/macro",
+            "ui",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/right/sections/export.tsx",
+          "hash": "7183122816008149890",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils",
+            "npm:file-saver"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/right/sections/layout.tsx",
+          "hash": "8801415790951063681",
+          "deps": [
+            "npm:@dnd-kit/core",
+            "npm:@dnd-kit/sortable",
+            "npm:@dnd-kit/utilities",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "schema",
+            "ui",
+            "utils",
+            "npm:lodash.get",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/right/sections/page.tsx",
+          "hash": "6784727834442909276",
+          "deps": [
+            "npm:@lingui/macro",
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/right/sections/template.tsx",
+          "hash": "4159584275527977299",
+          "deps": [
+            "npm:@lingui/macro",
+            "ui",
+            "utils",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/right/sections/theme.tsx",
+          "hash": "17328874588483937980",
+          "deps": [
+            "npm:@lingui/macro",
+            "ui",
+            "utils",
+            "npm:react-colorful"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/right/sections/typography.tsx",
+          "hash": "13521633680629765231",
+          "deps": [
+            "npm:@lingui/macro",
+            "ui",
+            "utils",
+            "npm:react",
+            "npm:webfontloader"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/builder/sidebars/right/shared/section-icon.tsx",
+          "hash": "16127436968079424654",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/_components/sidebar.tsx",
+          "hash": "4516026834155517215",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils",
+            "npm:framer-motion",
+            "npm:react-router-dom",
+            "npm:use-keyboard-shortcut"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/layout.tsx",
+          "hash": "11433488495907558730",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "ui",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx",
+          "hash": "8636554779774522993",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "parser",
+            "schema",
+            "ui",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx",
+          "hash": "298447760089968734",
+          "deps": [
+            "npm:@lingui/macro",
+            "dto",
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx",
+          "hash": "7447259254239513661",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "schema",
+            "ui",
+            "utils",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/base-card.tsx",
+          "hash": "5349131735186846871",
+          "deps": [
+            "ui",
+            "utils",
+            "npm:react-parallax-tilt"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/create-card.tsx",
+          "hash": "18164659278482987537",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/import-card.tsx",
+          "hash": "10510302960831690604",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/grid/_components/resume-card.tsx",
+          "hash": "1040026179051156087",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "ui",
+            "utils",
+            "npm:dayjs",
+            "npm:framer-motion",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/grid/index.tsx",
+          "hash": "13642162726714984181",
+          "deps": [
+            "utils",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/list/_components/base-item.tsx",
+          "hash": "16257381481127175969",
+          "deps": [
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/list/_components/create-item.tsx",
+          "hash": "8315905501659562852",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/list/_components/import-item.tsx",
+          "hash": "4980501766064005404",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/list/_components/resume-item.tsx",
+          "hash": "15565978706636050514",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "ui",
+            "npm:dayjs",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/_layouts/list/index.tsx",
+          "hash": "15332703185237551665",
+          "deps": [
+            "utils",
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/resumes/page.tsx",
+          "hash": "8241036467571218171",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-helmet-async"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx",
+          "hash": "4031199786189563180",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/core",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "npm:qrcode.react",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/settings/_sections/account.tsx",
+          "hash": "14471964428271618950",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "ui",
+            "utils",
+            "npm:framer-motion",
+            "npm:react",
+            "npm:react-hook-form"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/settings/_sections/danger.tsx",
+          "hash": "9484770417419579912",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "ui",
+            "npm:react-hook-form",
+            "npm:react-router-dom",
+            "npm:usehooks-ts",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/settings/_sections/openai.tsx",
+          "hash": "12727294524331078542",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "utils",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/settings/_sections/profile.tsx",
+          "hash": "4291890667173025904",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "hooks",
+            "ui",
+            "utils",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/settings/_sections/security.tsx",
+          "hash": "13528704910220861934",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@lingui/macro",
+            "ui",
+            "npm:framer-motion",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/dashboard/settings/page.tsx",
+          "hash": "403973323458129244",
+          "deps": [
+            "npm:@lingui/macro",
+            "ui",
+            "npm:framer-motion",
+            "npm:react-helmet-async"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/home/layout.tsx",
+          "hash": "15751352016980573828",
+          "deps": [
+            "ui",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/home/meta/privacy-policy/page.tsx",
+          "hash": "3510872362434273691",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:react-helmet-async"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/home/page.tsx",
+          "hash": "14313073897965159280",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@lingui/react",
+            "npm:react-helmet-async",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/home/sections/hero/call-to-action.tsx",
+          "hash": "10501695679600721759",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "ui",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/home/sections/hero/index.tsx",
+          "hash": "6720524498761753123",
+          "deps": [
+            "npm:@lingui/macro"
+          ]
+        },
+        {
+          "file": "apps/client/src/pages/public/page.tsx",
+          "hash": "9224234148607451622",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@phosphor-icons/react",
+            "dto",
+            "ui",
+            "utils",
+            "npm:react",
+            "npm:react-helmet-async",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/providers/auth-refresh.tsx",
+          "hash": "8374117909482945274",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/providers/dialog.tsx",
+          "hash": "16009093704028593695"
+        },
+        {
+          "file": "apps/client/src/providers/index.tsx",
+          "hash": "17499706481341260354",
+          "deps": [
+            "ui",
+            "npm:@tanstack/react-query",
+            "npm:react-helmet-async",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/providers/locale.tsx",
+          "hash": "7986550366415400182",
+          "deps": [
+            "npm:@lingui/core",
+            "npm:@lingui/detect-locale",
+            "npm:@lingui/react",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/providers/theme.tsx",
+          "hash": "2584032985384589566",
+          "deps": [
+            "hooks",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/providers/toaster.tsx",
+          "hash": "4718728881520675662",
+          "deps": [
+            "ui"
+          ]
+        },
+        {
+          "file": "apps/client/src/router/guards/auth.tsx",
+          "hash": "7165642681579820204",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/router/guards/guest.tsx",
+          "hash": "13092804296181480970",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/router/index.tsx",
+          "hash": "5936566908047105688",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/router/loaders/auth.ts",
+          "hash": "8196448532137463489",
+          "deps": [
+            "dto",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/email-verification/resend-verify-email.ts",
+          "hash": "8799342830354891168",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/email-verification/verify-email.ts",
+          "hash": "9420272435354842814",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/index.ts",
+          "hash": "3707533756505381364"
+        },
+        {
+          "file": "apps/client/src/services/auth/login.ts",
+          "hash": "8449398093831800235",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/logout.ts",
+          "hash": "2926722483556671044",
+          "deps": [
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/password-recovery/forgot-password.ts",
+          "hash": "4982515211823369530",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/password-recovery/reset-password.ts",
+          "hash": "8907513463549498458",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/providers.ts",
+          "hash": "3364570612868030707",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/refresh.ts",
+          "hash": "2027564877660452659",
+          "deps": [
+            "dto",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/register.ts",
+          "hash": "1054236532830855111",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/two-factor-authentication/backup-otp.tsx",
+          "hash": "9687098125379486599",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/two-factor-authentication/disable.ts",
+          "hash": "6072640557663717963",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/two-factor-authentication/enable.ts",
+          "hash": "4622078882526011458",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/two-factor-authentication/setup.ts",
+          "hash": "9999479062472417774",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/two-factor-authentication/verify-otp.tsx",
+          "hash": "18119890187131079809",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/auth/update-password.ts",
+          "hash": "2586146977039106534",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/errors/translate-error.ts",
+          "hash": "6401064806646463027",
+          "deps": [
+            "npm:@lingui/macro",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/feature/flags.ts",
+          "hash": "9886429305935644215",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/feature/index.ts",
+          "hash": "12952184356149686069"
+        },
+        {
+          "file": "apps/client/src/services/openai/change-tone.ts",
+          "hash": "15787723540239551610",
+          "deps": [
+            "npm:@lingui/macro"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/openai/client.ts",
+          "hash": "5990447903857820964",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:openai"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/openai/fix-grammar.ts",
+          "hash": "16877849712426722673",
+          "deps": [
+            "npm:@lingui/macro"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/openai/improve-writing.ts",
+          "hash": "8626424762179592597",
+          "deps": [
+            "npm:@lingui/macro"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/contributors.ts",
+          "hash": "15560754595554600006",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/create.ts",
+          "hash": "4995782784051208121",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/delete.ts",
+          "hash": "9615500890023873321",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/import.ts",
+          "hash": "14430407280403617410",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/index.ts",
+          "hash": "17634349120926286977"
+        },
+        {
+          "file": "apps/client/src/services/resume/lock.ts",
+          "hash": "3625993891925009003",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/preview.ts",
+          "hash": "3176197461101954355",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/print.tsx",
+          "hash": "1510104959606863198",
+          "deps": [
+            "npm:@lingui/macro",
+            "dto",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/resume.ts",
+          "hash": "6522273361435012750",
+          "deps": [
+            "dto"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/resumes.ts",
+          "hash": "14956424855538762619",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/statistics.ts",
+          "hash": "13030681158536449935",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/translation.ts",
+          "hash": "7753688107373800025",
+          "deps": [
+            "utils",
+            "npm:@tanstack/react-query"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/resume/update.tsx",
+          "hash": "12741408899201382838",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios",
+            "npm:lodash.debounce"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/storage/index.ts",
+          "hash": "4165132779706191638"
+        },
+        {
+          "file": "apps/client/src/services/storage/upload-image.ts",
+          "hash": "3647112492785456560",
+          "deps": [
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/user/delete-user.ts",
+          "hash": "2194836120051763414",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/user/index.ts",
+          "hash": "13148374444342027359"
+        },
+        {
+          "file": "apps/client/src/services/user/update-user.ts",
+          "hash": "252896397735591416",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/client/src/services/user/user.ts",
+          "hash": "17607770268836579814",
+          "deps": [
+            "dto",
+            "npm:@tanstack/react-query",
+            "npm:axios",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/client/src/stores/auth.ts",
+          "hash": "306038837696879813",
+          "deps": [
+            "dto",
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/client/src/stores/builder.ts",
+          "hash": "49771776198783559",
+          "deps": [
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/client/src/stores/dialog.ts",
+          "hash": "18059694416943513007",
+          "deps": [
+            "schema",
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/client/src/stores/openai.ts",
+          "hash": "10351230814396617221",
+          "deps": [
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/client/src/stores/resume.ts",
+          "hash": "17920498654083953056",
+          "deps": [
+            "npm:@lingui/macro",
+            "npm:@paralleldrive/cuid2",
+            "dto",
+            "schema",
+            "utils",
+            "npm:lodash.set",
+            "npm:zundo",
+            "npm:zustand"
+          ]
+        },
+        {
+          "file": "apps/client/src/styles/_colors.css",
+          "hash": "11441425722585063398"
+        },
+        {
+          "file": "apps/client/src/styles/_fonts.css",
+          "hash": "236830301122186768"
+        },
+        {
+          "file": "apps/client/src/styles/_tailwind.css",
+          "hash": "5237504388784675962"
+        },
+        {
+          "file": "apps/client/src/styles/_theme.css",
+          "hash": "13193855272569559733"
+        },
+        {
+          "file": "apps/client/src/styles/main.css",
+          "hash": "8595668117864692670"
+        },
+        {
+          "file": "apps/client/src/vite-env.d.ts",
+          "hash": "4392029466574557849"
+        },
+        {
+          "file": "apps/client/tailwind.config.js",
+          "hash": "1025764399254396147",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/client/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "apps/client/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/client/tsconfig.spec.json",
+          "hash": "9148046076102365828"
+        },
+        {
+          "file": "apps/client/vite.config.ts",
+          "hash": "17879094902091171212",
+          "deps": [
+            "npm:@lingui/vite-plugin",
+            "npm:@nx/vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite"
+          ]
+        }
+      ],
+      "utils": [
+        {
+          "file": "libs/utils/.eslintrc.json",
+          "hash": "10905178498824427073"
+        },
+        {
+          "file": "libs/utils/.swcrc",
+          "hash": "16777374493166073853"
+        },
+        {
+          "file": "libs/utils/package.json",
+          "hash": "4653348656377212403",
+          "deps": [
+            "npm:papaparse",
+            "npm:dayjs",
+            "npm:unique-names-generator",
+            "npm:clsx",
+            "npm:tailwind-merge",
+            "npm:@swc/helpers"
+          ]
+        },
+        {
+          "file": "libs/utils/project.json",
+          "hash": "10929562527551359994"
+        },
+        {
+          "file": "libs/utils/src/index.ts",
+          "hash": "6915695218756893177"
+        },
+        {
+          "file": "libs/utils/src/namespaces/array.ts",
+          "hash": "4159772194415614718"
+        },
+        {
+          "file": "libs/utils/src/namespaces/color.ts",
+          "hash": "8818356739145703856"
+        },
+        {
+          "file": "libs/utils/src/namespaces/csv.ts",
+          "hash": "6079330519862385233",
+          "deps": [
+            "npm:papaparse"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/date.ts",
+          "hash": "7471999952333829069",
+          "deps": [
+            "npm:dayjs"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/error.ts",
+          "hash": "17706130596965047839"
+        },
+        {
+          "file": "libs/utils/src/namespaces/fonts.ts",
+          "hash": "2395085900381059125"
+        },
+        {
+          "file": "libs/utils/src/namespaces/language.ts",
+          "hash": "12235596190436885805"
+        },
+        {
+          "file": "libs/utils/src/namespaces/number.ts",
+          "hash": "10374504014835865485"
+        },
+        {
+          "file": "libs/utils/src/namespaces/object.ts",
+          "hash": "13846597521363164500"
+        },
+        {
+          "file": "libs/utils/src/namespaces/page.ts",
+          "hash": "12083196025358069152"
+        },
+        {
+          "file": "libs/utils/src/namespaces/promise.ts",
+          "hash": "2613782231706592722"
+        },
+        {
+          "file": "libs/utils/src/namespaces/string.ts",
+          "hash": "2273423061981922686",
+          "deps": [
+            "npm:unique-names-generator"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/style.ts",
+          "hash": "11150682329830281567",
+          "deps": [
+            "npm:clsx",
+            "npm:tailwind-merge"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/template.ts",
+          "hash": "2650547082352438589"
+        },
+        {
+          "file": "libs/utils/src/namespaces/tests/array.test.ts",
+          "hash": "8884373983093614429",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/tests/date.test.ts",
+          "hash": "14619324912124439817",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/tests/number.test.ts",
+          "hash": "14855684733858427881",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/tests/object.test.ts",
+          "hash": "651342149145078968",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/tests/string.test.ts",
+          "hash": "14267206426079754307",
+          "deps": [
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "libs/utils/src/namespaces/types.ts",
+          "hash": "18340161246640282289"
+        },
+        {
+          "file": "libs/utils/tsconfig.json",
+          "hash": "12434429004007932236"
+        },
+        {
+          "file": "libs/utils/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "libs/utils/tsconfig.spec.json",
+          "hash": "3905317577701168930"
+        },
+        {
+          "file": "libs/utils/vite.config.ts",
+          "hash": "10963280004388571022",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:vite"
+          ]
+        }
+      ],
+      "dto": [
+        {
+          "file": "libs/dto/.eslintrc.json",
+          "hash": "10905178498824427073"
+        },
+        {
+          "file": "libs/dto/.swcrc",
+          "hash": "16777374493166073853"
+        },
+        {
+          "file": "libs/dto/package.json",
+          "hash": "15054601324554120053",
+          "deps": [
+            "utils",
+            "schema",
+            "npm:nestjs-zod",
+            "npm:@swc/helpers"
+          ]
+        },
+        {
+          "file": "libs/dto/project.json",
+          "hash": "14427880205404663005"
+        },
+        {
+          "file": "libs/dto/src/auth/forgot-password.ts",
+          "hash": "13692915300401019546",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/auth/index.ts",
+          "hash": "12089529944501818229"
+        },
+        {
+          "file": "libs/dto/src/auth/login.ts",
+          "hash": "5438691958598322400",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/auth/message.ts",
+          "hash": "16334722879471855859",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/auth/providers.ts",
+          "hash": "10048282356941179790",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/auth/register.ts",
+          "hash": "13787660121607220166",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/auth/reset-password.ts",
+          "hash": "4469304118292356006",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/auth/response.ts",
+          "hash": "4889172065558054590",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/auth/two-factor.ts",
+          "hash": "4397651900147832359",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/auth/update-password.ts",
+          "hash": "8709983440780749792",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/contributors/index.ts",
+          "hash": "10355267007797976159",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/feature/index.ts",
+          "hash": "8953627192303621803",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/index.ts",
+          "hash": "7002253001479343837"
+        },
+        {
+          "file": "libs/dto/src/resume/create.ts",
+          "hash": "14925539364986742658",
+          "deps": [
+            "utils",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/resume/delete.ts",
+          "hash": "14128942221863264597",
+          "deps": [
+            "schema",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/resume/import.ts",
+          "hash": "1920923713511220174",
+          "deps": [
+            "schema",
+            "utils",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/resume/index.ts",
+          "hash": "7917248488074950274"
+        },
+        {
+          "file": "libs/dto/src/resume/resume.ts",
+          "hash": "17351086477699656965",
+          "deps": [
+            "schema",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/resume/update.ts",
+          "hash": "5972713811318064864",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/resume/url.ts",
+          "hash": "4507985136223348637",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/secrets/index.ts",
+          "hash": "3075838583209509249"
+        },
+        {
+          "file": "libs/dto/src/secrets/secrets.ts",
+          "hash": "6355950648628931555",
+          "deps": [
+            "schema",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/statistics/index.ts",
+          "hash": "13564994579452490109",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/user/index.ts",
+          "hash": "14592645933579726677"
+        },
+        {
+          "file": "libs/dto/src/user/update-user.ts",
+          "hash": "14436848295923975531",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/src/user/user.ts",
+          "hash": "5734126367573380418",
+          "deps": [
+            "schema",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "libs/dto/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/dto/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "libs/dto/tsconfig.spec.json",
+          "hash": "3905317577701168930"
+        },
+        {
+          "file": "libs/dto/vite.config.ts",
+          "hash": "6552778559700818611",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:vite"
+          ]
+        }
+      ],
+      "schema": [
+        {
+          "file": "libs/schema/.eslintrc.json",
+          "hash": "10905178498824427073"
+        },
+        {
+          "file": "libs/schema/.swcrc",
+          "hash": "16777374493166073853"
+        },
+        {
+          "file": "libs/schema/package.json",
+          "hash": "10599148622169677836",
+          "deps": [
+            "utils",
+            "npm:zod",
+            "npm:@paralleldrive/cuid2",
+            "npm:@swc/helpers"
+          ]
+        },
+        {
+          "file": "libs/schema/project.json",
+          "hash": "3660265183686260541"
+        },
+        {
+          "file": "libs/schema/src/basics/custom.ts",
+          "hash": "831599206969838142",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/basics/index.ts",
+          "hash": "8573708198706920208",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/index.ts",
+          "hash": "5444514367642710340",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/metadata/index.ts",
+          "hash": "4836501207517276794",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sample.ts",
+          "hash": "14700867050163196044"
+        },
+        {
+          "file": "libs/schema/src/sections/award.ts",
+          "hash": "10264190314138766217",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/certification.ts",
+          "hash": "8090965389002026442",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/custom-section.ts",
+          "hash": "13078451413776718263",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/education.ts",
+          "hash": "13739630387234899627",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/experience.ts",
+          "hash": "8048435035027117551",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/index.ts",
+          "hash": "4181626813479105033",
+          "deps": [
+            "utils",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/interest.ts",
+          "hash": "17054304163677612105",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/language.ts",
+          "hash": "3092854228452384829",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/profile.ts",
+          "hash": "9159362368632258153",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/project.ts",
+          "hash": "3785391943703045951",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/publication.ts",
+          "hash": "15845881947444457905",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/reference.ts",
+          "hash": "116490559630060543",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/skill.ts",
+          "hash": "8301653707501587202",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/sections/volunteer.ts",
+          "hash": "15469804711941817930",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/shared/id.ts",
+          "hash": "12371910861242898021",
+          "deps": [
+            "npm:@paralleldrive/cuid2",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/shared/index.ts",
+          "hash": "12753253678802985827"
+        },
+        {
+          "file": "libs/schema/src/shared/item.ts",
+          "hash": "7879985572272558073",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/src/shared/url.ts",
+          "hash": "9485765620747948345",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/schema/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/schema/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "libs/schema/tsconfig.spec.json",
+          "hash": "3905317577701168930"
+        },
+        {
+          "file": "libs/schema/vite.config.ts",
+          "hash": "9746681103306424653",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:vite"
+          ]
+        }
+      ],
+      "server": [
+        {
+          "file": "apps/server/.eslintrc.json",
+          "hash": "18090616762053917544"
+        },
+        {
+          "file": "apps/server/jest.config.ts",
+          "hash": "6918528320339135621"
+        },
+        {
+          "file": "apps/server/project.json",
+          "hash": "11823753465927185734"
+        },
+        {
+          "file": "apps/server/src/app.module.ts",
+          "hash": "8723983515907564679",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/serve-static",
+            "npm:nest-raven",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "apps/server/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/server/src/auth/auth.controller.ts",
+          "hash": "15984720285945570449",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/swagger",
+            "dto",
+            "utils",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/auth.module.ts",
+          "hash": "3114396140385897647",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/auth.service.ts",
+          "hash": "4518324487441092065",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/jwt",
+            "npm:@prisma/client",
+            "dto",
+            "utils",
+            "npm:bcryptjs",
+            "npm:otplib"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/guards/github.guard.ts",
+          "hash": "14750390728592143522",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/guards/google.guard.ts",
+          "hash": "13042052513782240358",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/guards/jwt.guard.ts",
+          "hash": "10489447177092028112",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/guards/local.guard.ts",
+          "hash": "11777836862100987120",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/guards/optional.guard.ts",
+          "hash": "11823716992412125753",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "dto"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/guards/refresh.guard.ts",
+          "hash": "893533241282590759",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/guards/two-factor.guard.ts",
+          "hash": "16825427204864375335",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/strategy/dummy.strategy.ts",
+          "hash": "11953245001518445504",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:passport"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/strategy/github.strategy.ts",
+          "hash": "13775166399691816560",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:@prisma/client",
+            "utils",
+            "npm:passport-github2"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/strategy/google.strategy.ts",
+          "hash": "1106028416355798153",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:@prisma/client",
+            "utils",
+            "npm:passport-google-oauth20"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/strategy/jwt.strategy.ts",
+          "hash": "8212452753780116784",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/passport",
+            "npm:express",
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/strategy/local.strategy.ts",
+          "hash": "8205369006064719211",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "utils",
+            "npm:passport-local"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/strategy/refresh.strategy.ts",
+          "hash": "18028940907507907915",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/passport",
+            "npm:express",
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/strategy/two-factor.strategy.ts",
+          "hash": "14014474470799581585",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/passport",
+            "npm:express",
+            "npm:passport-jwt"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/utils/cookie.ts",
+          "hash": "294716588526085144",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/server/src/auth/utils/payload.ts",
+          "hash": "17895003213909698670",
+          "deps": [
+            "schema",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "apps/server/src/config/config.module.ts",
+          "hash": "5537123787934532176",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/server/src/config/schema.ts",
+          "hash": "7044717316845586965",
+          "deps": [
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "apps/server/src/contributors/contributors.controller.ts",
+          "hash": "1550573201127705156",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/contributors/contributors.module.ts",
+          "hash": "13719525956194900926",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/contributors/contributors.service.ts",
+          "hash": "12517574230696220241",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "dto"
+          ]
+        },
+        {
+          "file": "apps/server/src/database/database.module.ts",
+          "hash": "6123975288688041958",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:nestjs-prisma"
+          ]
+        },
+        {
+          "file": "apps/server/src/feature/feature.controller.ts",
+          "hash": "3675009712749151124",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/feature/feature.module.ts",
+          "hash": "14120888947307257749",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/feature/feature.service.ts",
+          "hash": "7810264816942461463",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/server/src/health/browser.health.ts",
+          "hash": "9489982795138628322",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/terminus"
+          ]
+        },
+        {
+          "file": "apps/server/src/health/database.health.ts",
+          "hash": "13727314099810705613",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/terminus",
+            "npm:nestjs-prisma"
+          ]
+        },
+        {
+          "file": "apps/server/src/health/health.controller.ts",
+          "hash": "16711790807592412143",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/terminus"
+          ]
+        },
+        {
+          "file": "apps/server/src/health/health.module.ts",
+          "hash": "12274061778272252512",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/terminus"
+          ]
+        },
+        {
+          "file": "apps/server/src/health/storage.health.ts",
+          "hash": "2736104058689736002",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/terminus"
+          ]
+        },
+        {
+          "file": "apps/server/src/mail/mail.module.ts",
+          "hash": "15184470399446316180",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs-modules/mailer",
+            "npm:nodemailer"
+          ]
+        },
+        {
+          "file": "apps/server/src/mail/mail.service.ts",
+          "hash": "2885622658860708379",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs-modules/mailer"
+          ]
+        },
+        {
+          "file": "apps/server/src/main.ts",
+          "hash": "8325919434217772764",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/swagger",
+            "npm:cookie-parser",
+            "npm:helmet",
+            "npm:nestjs-zod"
+          ]
+        },
+        {
+          "file": "apps/server/src/printer/printer.module.ts",
+          "hash": "4036743550416198053",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/printer/printer.service.ts",
+          "hash": "12892464603066570548",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@pdf-lib/fontkit",
+            "dto",
+            "utils",
+            "npm:async-retry",
+            "npm:pdf-lib",
+            "npm:puppeteer"
+          ]
+        },
+        {
+          "file": "apps/server/src/resume/decorators/resume.decorator.ts",
+          "hash": "351995279708082223",
+          "deps": [
+            "npm:@nestjs/common",
+            "dto"
+          ]
+        },
+        {
+          "file": "apps/server/src/resume/guards/resume.guard.ts",
+          "hash": "3834958476587550784",
+          "deps": [
+            "npm:@nestjs/common",
+            "dto",
+            "utils",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/server/src/resume/resume.controller.ts",
+          "hash": "13670410439484825110",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:@prisma/client",
+            "dto",
+            "schema",
+            "utils",
+            "npm:zod-to-json-schema"
+          ]
+        },
+        {
+          "file": "apps/server/src/resume/resume.module.ts",
+          "hash": "9251095958422727571",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/resume/resume.service.ts",
+          "hash": "1915534790641661436",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@prisma/client",
+            "dto",
+            "schema",
+            "utils",
+            "npm:deepmerge",
+            "npm:nestjs-prisma"
+          ]
+        },
+        {
+          "file": "apps/server/src/storage/storage.controller.ts",
+          "hash": "12705977924900310974",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/server/src/storage/storage.module.ts",
+          "hash": "14597313706058892444",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:multer",
+            "npm:nestjs-minio-client"
+          ]
+        },
+        {
+          "file": "apps/server/src/storage/storage.service.ts",
+          "hash": "8569459692136000501",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@paralleldrive/cuid2",
+            "npm:nestjs-minio-client",
+            "npm:sharp"
+          ]
+        },
+        {
+          "file": "apps/server/src/translation/translation.controller.ts",
+          "hash": "10064020828430477467",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/translation/translation.module.ts",
+          "hash": "7815595957436016320",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/translation/translation.service.ts",
+          "hash": "14793084793937451019",
+          "deps": [
+            "npm:@nestjs/axios",
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/server/src/types/express.d.ts",
+          "hash": "15560486966150487361",
+          "deps": [
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "apps/server/src/user/decorators/user.decorator.ts",
+          "hash": "4504181611705593621",
+          "deps": [
+            "npm:@nestjs/common",
+            "dto"
+          ]
+        },
+        {
+          "file": "apps/server/src/user/user.controller.ts",
+          "hash": "15969722590617685219",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:@prisma/client",
+            "dto",
+            "utils",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/server/src/user/user.module.ts",
+          "hash": "82482689349202787",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/server/src/user/user.service.ts",
+          "hash": "11160479194375012352",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@prisma/client",
+            "utils",
+            "npm:nestjs-prisma"
+          ]
+        },
+        {
+          "file": "apps/server/tsconfig.app.json",
+          "hash": "17728567067546091923"
+        },
+        {
+          "file": "apps/server/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/server/tsconfig.spec.json",
+          "hash": "6898991939206723030"
+        },
+        {
+          "file": "apps/server/webpack.config.js",
+          "hash": "1741996030928640101",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "file": "libs/ui/.eslintrc.json",
+          "hash": "7118798815127207976"
+        },
+        {
+          "file": "libs/ui/package.json",
+          "hash": "17509179724767060673"
+        },
+        {
+          "file": "libs/ui/postcss.config.js",
+          "hash": "15072321357058817229"
+        },
+        {
+          "file": "libs/ui/project.json",
+          "hash": "14095077290658583749"
+        },
+        {
+          "file": "libs/ui/src/components/accordion.tsx",
+          "hash": "16464492845963134177",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-accordion",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/alert-dialog.tsx",
+          "hash": "4860221352038097592",
+          "deps": [
+            "npm:@radix-ui/react-alert-dialog",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/alert.tsx",
+          "hash": "2701171092411302674",
+          "deps": [
+            "utils",
+            "npm:class-variance-authority",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/aspect-ratio.tsx",
+          "hash": "13213775543408763760",
+          "deps": [
+            "npm:@radix-ui/react-aspect-ratio"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/avatar.tsx",
+          "hash": "11619858037751554053",
+          "deps": [
+            "npm:@radix-ui/react-avatar",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/badge-input.tsx",
+          "hash": "329960483557062377",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/badge.tsx",
+          "hash": "12912619998465033854",
+          "deps": [
+            "utils",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/button.tsx",
+          "hash": "9013945085146371684",
+          "deps": [
+            "npm:@radix-ui/react-slot",
+            "utils",
+            "npm:class-variance-authority",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/card.tsx",
+          "hash": "8435302638288496757",
+          "deps": [
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/checkbox.tsx",
+          "hash": "6219283813424633014",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-checkbox",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/combobox.tsx",
+          "hash": "5859780049263193867",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/command.tsx",
+          "hash": "17518151294590843729",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-dialog",
+            "utils",
+            "npm:cmdk",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/context-menu.tsx",
+          "hash": "14163030255254525010",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-context-menu",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/dialog.tsx",
+          "hash": "9450856834944426112",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-dialog",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/dropdown-menu.tsx",
+          "hash": "12672777299630787794",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-dropdown-menu",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/form.tsx",
+          "hash": "11263855579239600708",
+          "deps": [
+            "npm:@radix-ui/react-label",
+            "npm:@radix-ui/react-slot",
+            "hooks",
+            "utils",
+            "npm:react",
+            "npm:react-hook-form"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/hover-card.tsx",
+          "hash": "13563148334118263208",
+          "deps": [
+            "npm:@radix-ui/react-hover-card",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/index.ts",
+          "hash": "257289429482442282"
+        },
+        {
+          "file": "libs/ui/src/components/input.tsx",
+          "hash": "6980698421766803397",
+          "deps": [
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/label.tsx",
+          "hash": "8588863405310538455",
+          "deps": [
+            "npm:@radix-ui/react-label",
+            "utils",
+            "npm:class-variance-authority",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/popover.tsx",
+          "hash": "2906370642166496231",
+          "deps": [
+            "npm:@radix-ui/react-popover",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/portal.tsx",
+          "hash": "14360132747506065174",
+          "deps": [
+            "npm:@radix-ui/react-portal"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/resizable-panel.tsx",
+          "hash": "10575720010267291665",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "utils",
+            "npm:react-resizable-panels"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/rich-input.tsx",
+          "hash": "6552199431974824642",
+          "deps": [
+            "npm:@hookform/resolvers",
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-popover",
+            "utils",
+            "npm:@tiptap/extension-highlight",
+            "npm:@tiptap/extension-image",
+            "npm:@tiptap/extension-link",
+            "npm:@tiptap/extension-text-align",
+            "npm:@tiptap/extension-underline",
+            "npm:@tiptap/react",
+            "npm:@tiptap/starter-kit",
+            "npm:react",
+            "npm:react-hook-form",
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/scroll-area.tsx",
+          "hash": "4435160514948985115",
+          "deps": [
+            "npm:@radix-ui/react-scroll-area",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/select.tsx",
+          "hash": "13511520852022778547",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-select",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/separator.tsx",
+          "hash": "8991699908171486891",
+          "deps": [
+            "npm:@radix-ui/react-separator",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/sheet.tsx",
+          "hash": "12485165799746200781",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-dialog",
+            "utils",
+            "npm:class-variance-authority",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/shortcut.tsx",
+          "hash": "5192081156539624340",
+          "deps": [
+            "utils",
+            "npm:react",
+            "npm:usehooks-ts"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/skeleton.tsx",
+          "hash": "7869387296050955713",
+          "deps": [
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/slider.tsx",
+          "hash": "14957384188357013927",
+          "deps": [
+            "npm:@radix-ui/react-slider",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/switch.tsx",
+          "hash": "13232515771866438774",
+          "deps": [
+            "npm:@radix-ui/react-switch",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/tabs.tsx",
+          "hash": "16937518444022001377",
+          "deps": [
+            "npm:@radix-ui/react-tabs",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/toast.tsx",
+          "hash": "540686659834910657",
+          "deps": [
+            "npm:@phosphor-icons/react",
+            "npm:@radix-ui/react-toast",
+            "utils",
+            "npm:class-variance-authority",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/toggle-group.tsx",
+          "hash": "15323173593146450973",
+          "deps": [
+            "npm:@radix-ui/react-toggle-group",
+            "utils",
+            "npm:class-variance-authority",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/toggle.tsx",
+          "hash": "7084654914859981571",
+          "deps": [
+            "npm:@radix-ui/react-toggle",
+            "utils",
+            "npm:class-variance-authority",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/components/tooltip.tsx",
+          "hash": "12855987313578166767",
+          "deps": [
+            "npm:@radix-ui/react-tooltip",
+            "utils",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/index.ts",
+          "hash": "4015617590384224623"
+        },
+        {
+          "file": "libs/ui/src/variants/alert.ts",
+          "hash": "36121954774299095",
+          "deps": [
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/ui/src/variants/badge.ts",
+          "hash": "1735570582978383462",
+          "deps": [
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/ui/src/variants/button.ts",
+          "hash": "6173528085704059201",
+          "deps": [
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/ui/src/variants/index.ts",
+          "hash": "2648058627744963833"
+        },
+        {
+          "file": "libs/ui/src/variants/sheet.ts",
+          "hash": "6766996747465083431",
+          "deps": [
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/ui/src/variants/toast.ts",
+          "hash": "13559306200805860668",
+          "deps": [
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/ui/src/variants/toggle.ts",
+          "hash": "15607392271952187667",
+          "deps": [
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "libs/ui/tailwind.config.js",
+          "hash": "10456122484538361574",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "libs/ui/tsconfig.json",
+          "hash": "6996585143515498368"
+        },
+        {
+          "file": "libs/ui/tsconfig.lib.json",
+          "hash": "1480945559902334742"
+        },
+        {
+          "file": "libs/ui/tsconfig.spec.json",
+          "hash": "3905317577701168930"
+        },
+        {
+          "file": "libs/ui/vite.config.ts",
+          "hash": "8851780436073813066",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:@vitejs/plugin-react-swc",
+            "npm:vite",
+            "npm:vite-plugin-dts"
+          ]
+        }
+      ]
+    }
+  }
+}
