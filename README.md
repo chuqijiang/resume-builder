@@ -92,9 +92,9 @@ To run the app without Docker and see live changes as you modify code:
    npm install  # or pnpm install
 2. **Start Backend with Live Reloading**
    ```bash
-  docker-compose -f tools/compose/simple.yml up postgres minio -d
-  pnpm prisma migrate deploy
-  pnpm run start:dev
+   docker-compose -f tools/compose/simple.yml up postgres minio -d
+   pnpm prisma migrate deploy
+   pnpm run start:dev
 3. **Start Frontend with Hot Reloading**
    ```bash
    pnpm run dev
